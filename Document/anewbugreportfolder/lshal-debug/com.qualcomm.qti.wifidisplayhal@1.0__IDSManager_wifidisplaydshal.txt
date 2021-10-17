@@ -1,0 +1,1 @@
+*** command 'lshal debug -E com.qualcomm.qti.wifidisplayhal@1.0::IDSManager/wifidisplaydshal' failed: exit code 128

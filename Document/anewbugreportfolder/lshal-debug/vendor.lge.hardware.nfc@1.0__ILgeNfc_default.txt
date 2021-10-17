@@ -1,0 +1,1 @@
+*** command 'lshal debug -E vendor.lge.hardware.nfc@1.0::ILgeNfc/default' failed: exit code 128

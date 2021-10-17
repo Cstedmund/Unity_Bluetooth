@@ -1,0 +1,445 @@
+[    0.000221] Starting recovery (pid 445) on Wed Dec  4 03:56:31 2019
+[    0.001111] I:[libfs_mgr]dt_fstab: Skip disabled entry for partition vendor
+[    0.001555] recovery filesystem table
+[    0.001566] =========================
+[    0.001576]   0 /system ext4 /dev/block/platform/soc/624000.ufshc/by-name/system 0
+[    0.001583]   1 /cache ext4 /dev/block/bootdevice/by-name/cache 0
+[    0.001590]   2 /data ext4 /dev/block/bootdevice/by-name/userdata 0
+[    0.001597]   3 /sdcard vfat /dev/block/mmcblk0p1 0
+[    0.001607]   4 /boot emmc /dev/block/bootdevice/by-name/boot 0
+[    0.001614]   5 /recovery emmc /dev/block/bootdevice/by-name/recovery 0
+[    0.001621]   6 /misc emmc /dev/block/bootdevice/by-name/misc 0
+[    0.001628]   7 /encrypt raw /dev/block/bootdevice/by-name/encrypt 0
+[    0.001634]   8 /eksst raw /dev/block/bootdevice/by-name/eksst 0
+[    0.001641]   9 /persist-lg ext4 /dev/block/bootdevice/by-name/drm 0
+[    0.001648]   10 /vendor/firmware_mnt vfat /dev/block/bootdevice/by-name/modem 0
+[    0.001658]   11 /OP ext4 /dev/block/bootdevice/by-name/OP 0
+[    0.001665]   12 /tmp ramdisk ramdisk 0
+[    0.001672]
+[    0.002098] I:[libfs_mgr]dt_fstab: Skip disabled entry for partition vendor
+[    0.002855] I:Boot command: boot-recovery
+[    0.002897] I:Got 4 arguments from boot message
+[    0.003386] I:[libfs_mgr]dt_fstab: Skip disabled entry for partition vendor
+[    0.004327] I:[libfs_mgr]dt_fstab: Skip disabled entry for partition vendor
+[    0.008106] locale is [en-GB]
+[    0.008128] stage is []
+[    0.008136] reason is [MasterClearConfirm]
+[    0.017725] I:Brightness: 127 (50%)
+[    0.019450] cannot find/open a drm device: No such file or directory
+[    0.027260] fb0 reports (possibly inaccurate):
+[    0.027299]   vi.bits_per_pixel = 32
+[    0.027309]   vi.red.offset   =   0   .length =   8
+[    0.027318]   vi.green.offset =   8   .length =   8
+[    0.027327]   vi.blue.offset  =  16   .length =   8
+[    0.039161] framebuffer: 0 (1440 x 2880)
+[    0.088305]           erasing_text: en (180 x 76 @ 2695)
+[    0.101647]        no_command_text: en (331 x 76 @ 2695)
+[    0.114260]             error_text: en (131 x 76 @ 2695)
+[    0.897377]        installing_text: en (610 x 76 @ 2695)
+[    0.904996] [LGE][Recovery] frst_status is 6
+[    0.951442] [LGE][OP Image] op_status: 3
+[    0.970917] SELinux: Loaded file_contexts
+[    0.971085] Command: "/sbin/recovery" "--wipe_data" "--reason=MasterClearConfirm" "--locale=en-GB"
+[    0.971118]
+[    0.971652] ro.config.ringtone=01_Life_Is_Good.ogg
+[    0.971698] ro.config.alarm_alert=Life_Is_Good_Alarm.ogg
+[    0.971732] ro.config.vc_call_vol_steps=7
+[    0.971765] ro.config.notification_sound=Crystal.ogg
+[    0.972754] ro.dalvik.vm.native.bridge=0
+[    0.972806] dalvik.vm.isa.arm.variant=cortex-a53
+[    0.972841] dalvik.vm.isa.arm.features=default
+[    0.972875] dalvik.vm.isa.arm64.variant=kryo
+[    0.972908] dalvik.vm.isa.arm64.features=default
+[    0.972941] dalvik.vm.dexopt.secondary=true
+[    0.972974] dalvik.vm.usejit=true
+[    0.973007] dalvik.vm.heapsize=512m
+[    0.973040] dalvik.vm.dex2oat-Xms=64m
+[    0.973073] dalvik.vm.dex2oat-Xmx=512m
+[    0.973106] dalvik.vm.heapmaxfree=16m
+[    0.973138] dalvik.vm.heapminfree=4m
+[    0.973171] dalvik.vm.heapstartsize=8m
+[    0.973204] dalvik.vm.appimageformat=lz4
+[    0.973236] dalvik.vm.usejitprofiles=true
+[    0.973268] dalvik.vm.heapgrowthlimit=256m
+[    0.973300] dalvik.vm.stack-trace-dir=/data/anr
+[    0.973332] dalvik.vm.image-dex2oat-Xms=64m
+[    0.973365] dalvik.vm.image-dex2oat-Xmx=64m
+[    0.973396] dalvik.vm.dex2oat-minidebuginfo=true
+[    0.973428] dalvik.vm.heaptargetutilization=0.25
+[    0.973462] debug.sf.hw=1
+[    0.973494] debug.sf.recomputecrop=0
+[    0.973526] debug.sf.enable_hwc_vds=1
+[    0.973559] debug.sf.latch_unsignaled=1
+[    0.973592] debug.egl.hw=1
+[    0.973624] debug.atrace.tags.enableflags=0
+[    0.973656] debug.vendor.sns.daemon=i
+[    0.973689] debug.vendor.sns.libsensor1=e
+[    0.973721] debug.gralloc.enable_fb_ubwc=1
+[    0.973821] af.fast_track_multiplier=1
+[    0.973856] bt.max.hfpclient.connections=1
+[    0.973900] mm.enable.smoothstreaming=true
+[    0.973933] ro.af.client_heap_size_kbyte=7168
+[    0.973966] ro.sf.lcd_density=640
+[    0.973999] ro.adb.secure=1
+[    0.974032] ro.com.lge.mDHS=false
+[    0.974064] ro.com.lge.mada=gms_4.0
+[    0.974102] ro.com.google.apphider=on
+[    0.974134] ro.com.google.gmsversion=9_201907
+[    0.974165] ro.com.google.clientidbase=android-lge
+[    0.974198] ro.com.google.clientidbase.am=android-om-lge
+[    0.974236] ro.com.google.clientidbase.ms=android-om-lge
+[    0.974267] ro.com.google.clientidbase.yt=android-om-lge
+[    0.974298] ro.com.google.clientidbase.gmm=android-om-lge
+[    0.974331] ro.frp.pst=/dev/block/bootdevice/by-name/persistent
+[    0.974363] ro.lge.nfc.hce_f.exception=true
+[    0.974394] ro.nfc.port=I2C
+[    0.974426] ro.opa.eligible_device=true
+[    0.974457] ro.qti.sensors.pmd=false
+[    0.974491] ro.qti.sensors.dev_ori=false
+[    0.974523] ro.qti.sensors.mot_detect=false
+[    0.974554] ro.qti.sensors.sta_detect=false
+[    0.974586] ro.boot.flash.locked=1
+[    0.974619] ro.boot.console=ttyHSL0
+[    0.974651] ro.boot.product.hardware.sku=dfn
+[    0.974683] ro.boot.baseband=msm
+[    0.974715] ro.boot.hardware=lucye
+[    0.974747] ro.boot.revision=12
+[    0.974779] ro.boot.bootdevice=624000.ufshc
+[    0.974810] ro.boot.dlcomplete=0
+[    0.974842] ro.boot.rpmb_state=1
+[    0.974873] ro.boot.veritymode=enforcing
+[    0.974905] ro.boot.authorized_kernel=true
+[    0.974937] ro.boot.verifiedbootstate=green
+[    0.974969] ro.boot.bl_unlock_complete=false
+[    0.975002] ro.hwui.path_cache_size=32
+[    0.975033] ro.hwui.layer_cache_size=48
+[    0.975064] ro.hwui.texture_cache_size=72
+[    0.975096] ro.hwui.gradient_cache_size=1
+[    0.975128] ro.hwui.r_buffer_cache_size=8
+[    0.975159] ro.hwui.drop_shadow_cache_size=6
+[    0.975191] ro.hwui.text_large_cache_width=2048
+[    0.975222] ro.hwui.text_small_cache_width=1024
+[    0.975254] ro.hwui.text_large_cache_height=1024
+[    0.975285] ro.hwui.text_small_cache_height=1024
+[    0.975316] ro.hwui.texture_cache_flushrate=0.4
+[    0.975348] ro.vndk.lite=true
+[    0.975379] ro.vndk.version=28
+[    0.975414] ro.wifi.channels=
+[    0.975447] ro.allow.mock.location=0
+[    0.975482] ro.board.platform=msm8996
+[    0.975514] ro.build.id=PKQ1.190522.001
+[    0.975546] ro.build.date=Fri Sep 20 19:10:39 CST 2019
+[    0.975577] ro.build.date.utc=1568977839
+[    0.975609] ro.build.host=sbs26
+[    0.975640] ro.build.tags=release-keys
+[    0.975673] ro.build.type=user
+[    0.975706] ro.build.user=jenkins
+[    0.975738] ro.build.flavor=lucye_global_com-user
+[    0.975769] ro.build.display.id=PKQ1.190522.001
+[    0.975805] ro.build.product=lucye
+[    0.975837] ro.build.version.sdk=28
+[    0.975869] ro.build.version.base_os=
+[    0.975901] ro.build.version.release=9
+[    0.975933] ro.build.version.codename=REL
+[    0.975964] ro.build.version.incremental=192632011c72d
+[    0.975996] ro.build.version.preview_sdk=0
+[    0.976032] ro.build.version.all_codenames=REL
+[    0.976064] ro.build.version.security_patch=2019-05-01
+[    0.976096] ro.build.version.min_supported_target_sdk=17
+[    0.976127] ro.build.ab_update=false
+[    0.976159] ro.build.description=lucye_global_com-user 9 PKQ1.190522.001 192632011c72d release-keys
+[    0.976190] ro.build.characteristics=default
+[    0.976222] ro.build.system_root_image=false
+[    0.976253] ro.expect.recovery_id=0x5f1ccd627bad60db76104f59c213081499113326000000000000000000000000
+[    0.976285] ro.secure=1
+[    0.976316] ro.treble.enabled=false
+[    0.976347] ro.zygote=zygote64_32
+[    0.976378] ro.carrier=unknown
+[    0.976410] ro.product.cpu.abi=arm64-v8a
+[    0.976442] ro.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
+[    0.976473] ro.product.cpu.abilist32=armeabi-v7a,armeabi
+[    0.976505] ro.product.cpu.abilist64=arm64-v8a
+[    0.976536] ro.product.name=lucye_global_com
+[    0.976567] ro.product.board=QC_Reference_Phone
+[    0.976598] ro.product.brand=lge
+[    0.976630] ro.product.model=LG-H870DS
+[    0.976661] ro.product.device=lucye
+[    0.976692] ro.product.locale=en-GB
+[    0.976723] ro.product.locale.region=GB
+[    0.976761] ro.product.locale.language=en
+[    0.976793] ro.product.vendor.name=lucye_global_com
+[    0.976825] ro.product.vendor.brand=lge
+[    0.976856] ro.product.vendor.model=LG-H870DS
+[    0.976887] ro.product.vendor.device=lucye
+[    0.976918] ro.product.vendor.manufacturer=LGE
+[    0.976949] ro.product.manufacturer=LGE
+[    0.976980] ro.product.first_api_level=24
+[    0.977012] ro.baseband=msm
+[    0.977043] ro.bootmode=unknown
+[    0.977075] ro.hardware=lucye
+[    0.977106] ro.location.osnlp.region.package=
+[    0.977137] ro.location.osnlp.package=com.google.android.gms
+[    0.977454] ro.opengles.version=196610
+[    0.977532] ro.qualcomm.cabl=2
+[    0.977565] ro.revision=12
+[    0.977665] ro.bluetooth.wipower=true
+[    0.977752] ro.bluetooth.emb_wp_mode=true
+[    0.977836] ro.bluetooth.library_name=libbluetooth_brcm.so
+[    0.977934] ro.bootimage.build.date=Fri Sep 20 19:10:39 CST 2019
+[    0.978027] ro.bootimage.build.date.utc=1568977839
+[    0.978113] ro.bootimage.build.fingerprint=lge/lucye_global_com/lucye:9/PKQ1.190522.001/192632011c72d:user/release-keys
+[    0.978256] ro.telephony.default_network=9
+[    0.978289] ro.bootloader=unknown
+[    0.978322] ro.debuggable=0
+[    0.978354] ro.factorytest=0
+[    0.978387] ro.recovery_id=0x5276696152000f55a651c5a1054e17a987f87c1b000000000000000000000000
+[    0.978420] ro.setupwizard.mode=OPTIONAL
+[    0.978452] ro.setupwizard.suppress_d2d=true
+[    0.978484] ro.setupwizard.wifi_on_exit=false
+[    0.978516] ro.setupwizard.require_network=
+[    0.978547] ro.setupwizard.rotation_locked=true
+[    0.978579] ro.property_service.version=2
+[    0.978611] ro.cp_system_other_odex=1
+[    0.978643] ro.oem_unlock_supported=1
+[    0.978675] ro.control_privapp_permissions=log
+[    0.978707] ro.actionable_compatible_property.enabled=false
+[    0.978740] drm.service.enabled=true
+[    0.978772] mmp.enable.3g2=true
+[    0.978805] sdm.debug.disable_rotator_split=1
+[    0.978836] sdm.debug.disable_skip_validate=1
+[    0.978868] sdm.perf_hint_window=50
+[    0.978901] init.svc.charger=running
+[    0.978932] init.svc.ueventd=running
+[    0.978964] init.svc.recovery=running
+[    0.978996] qemu.hw.mainkeys=0
+[    0.979028] rild.libpath=/system/vendor/lib64/libril-qc-qmi-1.so
+[    0.979061] vidc.enc.dcvs.extra-buff-count=2
+[    0.979093] audio.offload.min.duration.secs=30
+[    0.979126] audio.offload.24bit.enable=1
+[    0.979158] audio.offload.video=false
+[    0.979190] audio.deep_buffer.media=true
+[    0.979222] media.settings.xml=/vendor/etc/media_profiles_vendor.xml
+[    0.979255] media.stagefright.enable-aac=true
+[    0.979286] media.stagefright.enable-qcp=true
+[    0.979318] media.stagefright.enable-http=true
+[    0.979350] media.stagefright.enable-scan=true
+[    0.979382] media.stagefright.enable-player=true
+[    0.979413] media.aac_51_output_enabled=true
+[    0.979445] Camera.no_navigation_bar=true
+[    0.979477] camera.disable_zsl_mode=1
+[    0.979509] persist.mm.enable.prefetch=true
+[    0.979541] persist.ts.rtmakeup=false
+[    0.979573] persist.ts.postmakeup=false
+[    0.979605] persist.hwc.enable_vds=1
+[    0.979636] persist.net.doxlat=false
+[    0.979668] persist.qfp=false
+[    0.979699] persist.data.netmgrd.qos.enable=true
+[    0.979731] persist.demo.hdmirotationlock=false
+[    0.979763] persist.rild.nitz_plmn=
+[    0.979795] persist.rild.nitz_long_ons_0=
+[    0.979827] persist.rild.nitz_long_ons_1=
+[    0.979859] persist.rild.nitz_long_ons_2=
+[    0.979891] persist.rild.nitz_long_ons_3=
+[    0.979922] persist.rild.nitz_short_ons_0=
+[    0.979953] persist.rild.nitz_short_ons_1=
+[    0.979985] persist.rild.nitz_short_ons_2=
+[    0.980016] persist.rild.nitz_short_ons_3=
+[    0.980048] persist.timed.enable=true
+[    0.980080] persist.backup.ntpServer=0.pool.ntp.org
+[    0.980112] persist.fuse_sdcard=true
+[    0.980144] telephony.lteOnCdmaDevice=0
+[    0.980177] setupwizard.feature.predeferred_enabled=false
+[    0.980209] setupwizard.feature.deferred_setup_suggestion=false
+[    0.980241] setupwizard.feature.deferred_setup_notification=false
+[    0.980273] DEVICE_PROVISIONED=1
+[    0.980795] ro.build.fingerprint=lge/lucye_global_com/lucye:9/PKQ1.190522.001/192632011c72d:user/release-keys
+[    0.981298] log.tag.ImmVibe=INFO
+[    0.981342] log.tag.vibeTonz=ERROR
+[    0.981375] log.tag.stats_log=I
+[    0.981464] ro.logd.size=1M
+[    0.981498] ro.logd.size.stats=64K
+[    0.982119] persist.debug.coresight.config=stm-events
+[    0.982213] persist.vendor.dpm.feature=0
+[    0.982350] pm.dexopt.boot=verify
+[    0.982386] pm.dexopt.ab-ota=speed-profile
+[    0.982419] pm.dexopt.shared=speed
+[    0.982452] pm.dexopt.install=speed-profile
+[    0.982485] pm.dexopt.inactive=verify
+[    0.982517] pm.dexopt.bg-dexopt=speed-profile
+[    0.982549] pm.dexopt.first-boot=quicken
+[    0.983165] ro.boot.product.lge.ddr_size=4294967296
+[    0.983210] ro.boot.product.lge.hiddenreset=0
+[    0.983243] ro.boot.product.lge.bootreasoncode=0x77665502
+[    0.983277] ro.product.lge.config.vibrate_type=1
+[    0.983311] ro.product.lge.hl_mode=1
+[    0.983343] ro.product.lge.smartca.version=20
+[    0.983376] ro.product.lge.revshare=2015
+[    0.983409] ro.product.lge.amrwb_gpri=1
+[    0.983442] ro.product.lge.radio_gpri=1
+[    0.983474] ro.product.lge.task_snapshot.cache_size=1
+[    0.983507] ro.product.lge.second_network.gw=1
+[    0.983539] ro.product.lge.lcd_auto_brightness_mode=true
+[    0.983571] persist.product.lge.ims.volte_open=1
+[    0.983603] persist.product.lge.data.iwlan=1
+[    0.983634] persist.product.lge.cupss.default=/OP/OPEN_HK_DS
+[    0.983666] persist.product.lge.cupss.integration=0
+[    0.983698] persist.product.lge.op_name=OPEN_HK
+[    0.983729] persist.product.lge.multi-cust=0
+[    0.983761] persist.product.lge.sound_enable=2
+[    0.983792] product.lge.wlan.softap5g=true
+[    0.984013] ril.subscription.types=NV,RUIM
+[    0.984049] persist.radio.multisim.config=dsds
+[    0.984347] ro.boot.serialno=LGH870DS72da5e4
+[    0.984385] ro.serialno=LGH870DS72da5e4
+[    0.984483] security.perf_harden=1
+[    0.984626] dev.pm.dyn_samplingrate=1
+[    0.984661] net.bt.name=Android
+[    0.984693] sys.usb.controller=6a00000.dwc3
+[    0.984725] sys.games.gt.prof=1
+[    0.984757] sys.vendor.shutdown.waittime=500
+[    0.984788] persist.sys.usb.config=boot
+[    0.984820] persist.sys.wfd.virtual=0
+[    0.984853] persist.sys.camera.display.lmax=1280x720
+[    0.984885] persist.sys.camera.display.umax=1920x1080
+[    0.984917] persist.sys.dalvik.vm.lib.2=libart.so
+[    0.984949] persist.sys.pd_enable=0
+[    0.984980] persist.sys.strictmode.disable=true
+[    0.985012] persist.sys.disable_rescue=true
+[    0.985764] ro.vendor.lge.sys.ship_mode=true
+[    0.985812] ro.vendor.lge.capp_cupss.persistlg.dir=/mnt/vendor/persist-lg
+[    0.985849] ro.vendor.build.date=Fri Sep 20 19:10:39 CST 2019
+[    0.985883] ro.vendor.build.date.utc=1568977839
+[    0.985916] ro.vendor.build.fingerprint=lge/lucye_global_com/lucye:9/PKQ1.190522.001/192632011c72d:user/release-keys
+[    0.985949] ro.vendor.build.security_patch=
+[    0.985983] ro.vendor.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
+[    0.986019] ro.vendor.product.cpu.abilist32=armeabi-v7a,armeabi
+[    0.986051] ro.vendor.product.cpu.abilist64=arm64-v8a
+[    0.986083] ro.vendor.sensors.wu=false
+[    0.986115] ro.vendor.sensors.maghalcal=false
+[    0.986148] ro.vendor.sensors.mot_detect=false
+[    0.986179] ro.vendor.sensors.sta_detect=false
+[    0.986211] ro.vendor.gt_library=libqti-gt.so
+[    0.986243] ro.vendor.wl_library=libqti-wl.so
+[    0.986276] ro.vendor.use_data_netmgrd=true
+[    0.986307] ro.vendor.extension_library=libqti-perfd-client.so
+[    0.986339] ro.hardware.egl=adreno
+[    0.986371] ro.hardware.vulkan=adreno
+[    0.986403] ro.hardware.nfc_nci=nqx.default
+[    0.986435] vendor.qcom.bluetooth.soc=rome
+[    0.986467] vendor.vidc.enc.disable.pq=true
+[    0.986499] vendor.debug.enable.gamed=0
+[    0.986531] vendor.audio_hal.period_size=480
+[    0.986564] persist.vendor.lge.sensors.lgpickup=true
+[    0.986596] persist.vendor.lge.sensors.wul_delay=3000
+[    0.986628] persist.vendor.lge.sensors.knock_delay=1000
+[    0.986660] persist.vendor.lge.sensors.wul_thresh0=2
+[    0.986693] persist.vendor.lge.sensors.wul_thresh1=10
+[    0.986737] persist.vendor.lge.sensors.wul_thresh2=15
+[    0.986769] persist.vendor.lge.sensors.wul_thresh3=1500
+[    0.986801] persist.vendor.lge.sensors.wul_thresh4=3100
+[    0.986833] persist.vendor.lge.sensors.wul_thresh5=10000
+[    0.986864] persist.vendor.lge.sensors.pocket_delay=1000
+[    0.986896] persist.vendor.lge.sensors.wul_multilevel=6
+[    0.986927] persist.vendor.lge.sensors.mag_filter_size=8
+[    0.986959] persist.vendor.lge.silentreset=0
+[    0.986990] persist.vendor.data.mode=concurrent
+[    0.987022] persist.vendor.debug.sensors.hal=i
+[    0.987054] persist.vendor.sensors.dev_ori=false
+[    0.987086] persist.vendor.qcomsysd.enabled=1
+[    0.987504] vendor.gralloc.enable_fb_ubwc=1
+[    0.987530] vendor.gralloc.disable_wb_ubwc=1
+[    0.987759] ro.vendor.lge.product.type=generic
+[    0.987770] ro.vendor.lge.platform.type=lamp
+[    0.987783] ro.vendor.lge.lguiversion=8.0
+[    0.987915] ro.vendor.lge.laop=1
+[    0.987924] ro.vendor.lge.capp_cupss.rootdir=/OP
+[    0.987936] persist.vendor.lge.sim.country=COM
+[    0.987945] persist.vendor.lge.sim.operator=OPEN
+[    0.987953] persist.vendor.lge.sim2.country=COM
+[    0.987962] persist.vendor.lge.sim2.operator=OPEN
+[    0.988017] ro.vendor.lge.build.target_region=ESA
+[    0.988026] ro.vendor.lge.build.target_country=COM
+[    0.988065] ro.vendor.lge.build.target_operator=GLOBAL
+[    0.988074] ro.boot.vendor.lge.hydra=Prime
+[    0.989520]
+[    0.989533] Supported API: 3
+[    0.990897]
+[    0.990906] -- Wiping data...
+[    1.048321] [LGE][Recovery] Formatting /data... START. Wed Dec  4 03:56:32 2019
+[    1.048343]
+[    1.101384] mke2fs 1.43.3 (04-Sep-2016)
+[    9.829534] Discarding device blocks:     4096/13816664 1052672/13816664 2625536/13816664 4198400/13816664 5771264/13816664 7344128/13816664 8916992/1381666410489856/1381666412587008/13816664                 done                            
+[    9.830077] Creating filesystem with 13816664 4k blocks and 3457024 inodes
+[    9.830118] Filesystem UUID: 901e1ed6-59f2-4971-b38a-9aad809d8b5d
+[    9.830138] Superblock backups stored on blocks: 
+[    9.830402] 	32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632, 2654208, 
+[    9.830512] 	4096000, 7962624, 11239424
+[    9.830531]
+[    9.835512] Allocating group tables:   0/422       done                            
+[    9.837040] Writing inode tables:   0/422       done                            
+[   10.072526] Creating journal (65536 blocks): done
+[   11.319157] Writing superblocks and filesystem accounting information:   0/422       done
+[   11.319189]
+[   11.319606] [LGE][Recovery] Formatting /data... END, result:succeed, Wed Dec  4 03:56:42 2019
+[   11.319637]
+[   11.387138] W:Failed to umount /cache: Device or resource busy
+[   11.387274] [LGE][Recovery] Formatting /cache... START. Wed Dec  4 03:56:42 2019
+[   11.387294]
+[   11.430063] mke2fs 1.43.3 (04-Sep-2016)
+[   11.534584] Discarding device blocks:   4096/131072             done                            
+[   11.534833] Creating filesystem with 131072 4k blocks and 32768 inodes
+[   11.534842] Filesystem UUID: 39eb425f-7b0c-4007-9062-c6e9abc94179
+[   11.534852] Superblock backups stored on blocks: 
+[   11.534862] 	32768, 98304
+[   11.534869]
+[   11.534913] Allocating group tables: 0/4   done                            
+[   11.535074] Writing inode tables: 0/4   done                            
+[   11.551798] Creating journal (4096 blocks): done
+[   11.650165] Writing superblocks and filesystem accounting information: 0/4   done
+[   11.650195]
+[   11.683995] [LGE][Recovery] Formatting /cache... END, result:succeed, Wed Dec  4 03:56:42 2019
+[   11.684020]
+[   11.706282] Data wipe complete.
+[   11.755948] [LGE][Recovery] Formatting /encrypt... START. Wed Dec  4 03:56:43 2019
+[   11.756015]
+[   11.862505] [LGE][Recovery] Formatting /encrypt... END, result:succeed, Wed Dec  4 03:56:43 2019
+[   11.862565]
+[   11.921616] [LGE][Recovery] Formatting /eksst... START. Wed Dec  4 03:56:43 2019
+[   11.921682]
+[   12.020996] [LGE][Recovery] Formatting /eksst... END, result:succeed, Wed Dec  4 03:56:43 2019
+[   12.021037]
+[   12.027645] [LGE][SBP] clear_sbp_dir: mv = /persist-lg rm_path = /persist-lg/lg_persist_property
+[   12.071031] cannot open /persist-lg/lg_persist_property
+[   12.079184] [LGE][SBP] Clear /persist-lg/lg_persist_property failed
+[   12.103753] [LGE][SBP] clear_sbp_dir: mv = /persist-lg rm_path = /persist-lg/property
+[   12.124489] /persist-lg/property/persist.product.lge.cupss.default removed
+[   12.124566] /persist-lg/property/persist.vendor.lge.ntcode-changed removed
+[   12.124638] /persist-lg/property/persist.vendor.lge.ntcode removed
+[   12.124710] /persist-lg/property/persist.vendor.lge.subset-list removed
+[   12.124780] /persist-lg/property/persist.product.lge.cupss.integration removed
+[   12.124849] /persist-lg/property/persist.vendor.lge.op_info removed
+[   12.124922] /persist-lg/property/persist.vendor.lge.cupss.prev-rootdir removed
+[   12.124991] /persist-lg/property/persist.vendor.lge.cupss.changed removed
+[   12.125060] /persist-lg/property/persist.vendor.lge.sim.operator removed
+[   12.125131] /persist-lg/property/persist.sys.lg.sound_enable removed
+[   12.125200] /persist-lg/property/persist.vendor.lge.sim2.operator removed
+[   12.125274] /persist-lg/property/persist.vendor.lge.sim2.country removed
+[   12.125347] /persist-lg/property/load_laop_props_done removed
+[   12.125416] /persist-lg/property/persist.radio.supportvolte removed
+[   12.125483] /persist-lg/property/persist.radio.supportvt removed
+[   12.125551] /persist-lg/property/persist.sys.ims.install removed
+[   12.125621] /persist-lg/property/persist.sys.lg.fota_silent removed
+[   12.125689] /persist-lg/property/persist.lge.supportvowifi removed
+[   12.125758] /persist-lg/property/persist.product.lge.multi-cust removed
+[   12.125826] /persist-lg/property/persist.vendor.lge.mccmnc-list removed
+[   12.125894] /persist-lg/property/persist.vendor.lge.cupss.next-root removed
+[   12.125961] /persist-lg/property/persist.vendor.lge.sim.country removed
+[   12.126028] /persist-lg/property/persist.product.lge.sound_enable removed
+[   12.126095] /persist-lg/property/persist.vendor.lge.silentreset removed
+[   12.132798] [LGE][SBP] clear_sbp_dir: mv = /persist-lg rm_path = /persist-lg/tmo
+[   12.159363] [LGE][SBP] clear_sbp_dir: mv = /OP rm_path = /OP/_SMARTCA_RES
+[   12.187050] cannot open /OP/_SMARTCA_RES
+[   12.190289] [LGE][SBP] Clear /OP/_SMARTCA_RES failed
+[   12.203759] [LGE][recovery_sbp] ntcode "1","FFF,FFF,FFFFFFFF,FFFFFFFF,54" 
+[   12.236369] [LGE][recovery_sbp] ret 0 
+[   12.281610] I:Saving locale "en-GB"

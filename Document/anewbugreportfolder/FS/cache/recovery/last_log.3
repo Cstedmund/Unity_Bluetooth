@@ -1,0 +1,517 @@
+[    0.002499] Starting recovery (pid 446) on Sun Jan  1 00:28:00 2017
+[    0.002558] recovery filesystem table
+[    0.002564] =========================
+[    0.002568]   0 /system ext4 /dev/block/bootdevice/by-name/system 0
+[    0.002572]   1 /cache ext4 /dev/block/bootdevice/by-name/cache 0
+[    0.002576]   2 /data ext4 /dev/block/bootdevice/by-name/userdata 0
+[    0.002580]   3 /sdcard vfat /dev/block/mmcblk0p1 0
+[    0.002584]   4 /boot emmc /dev/block/bootdevice/by-name/boot 0
+[    0.002588]   5 /recovery emmc /dev/block/bootdevice/by-name/recovery 0
+[    0.002591]   6 /misc emmc /dev/block/bootdevice/by-name/misc 0
+[    0.002595]   7 /encrypt raw /dev/block/bootdevice/by-name/encrypt 0
+[    0.002599]   8 /eksst raw /dev/block/bootdevice/by-name/eksst 0
+[    0.002603]   9 /persist-lg ext4 /dev/block/bootdevice/by-name/drm 0
+[    0.002606]   10 /firmware vfat /dev/block/bootdevice/by-name/modem 0
+[    0.002610]   11 /OP ext4 /dev/block/bootdevice/by-name/OP 0
+[    0.002614]   12 /tmp ramdisk ramdisk 0
+[    0.002618]
+[    0.008441] locale is [en_US]
+[    0.008459] stage is []
+[    0.008463] reason is [(null)]
+[    0.008467] cannot find/open a drm device: No such file or directory
+[    0.008586] fb0 reports (possibly inaccurate):
+[    0.008591]   vi.bits_per_pixel = 32
+[    0.008595]   vi.red.offset   =   0   .length =   8
+[    0.008599]   vi.green.offset =   8   .length =   8
+[    0.008603]   vi.blue.offset  =  16   .length =   8
+[    0.025433] framebuffer: 0 (1440 x 2880)
+[    0.061925]           erasing_text: en_US (178 x 76 @ 2310)
+[    0.067987]        no_command_text: en_US (330 x 76 @ 2310)
+[    0.073635]             error_text: en_US (127 x 76 @ 2310)
+[    0.554400]        installing_text: en_US (602 x 76 @ 2310)
+[    0.560814] [LGE][Recovery] frst_status is 3
+[    0.598275] [LGE][OP Image] op_status: 3
+[    0.615576] Command: "/sbin/recovery"
+[    0.615599]
+[    0.615830] ro.hwui.texture_cache_size=72
+[    0.616089] persist.net.doxlat=false
+[    0.616146] debug.gralloc.enable_fb_ubwc=1
+[    0.616283] qemu.hw.mainkeys=0
+[    0.616610] ro.opengles.version=196610
+[    0.616621] ro.sf.lcd_density=640
+[    0.616941] camera.disable_zsl_mode=1
+[    0.617464] persist.service.ccaudit.enable=0
+[    0.617511] wlan.driver.status=
+[    0.617665] vr.perfd.controller.start=0
+[    0.617850] sys.enable_lpm=1
+[    0.620204] ro.dalvik.vm.native.bridge=0
+[    0.620224] dalvik.vm.isa.arm.variant=cortex-a53
+[    0.620229] dalvik.vm.isa.arm.features=default
+[    0.620234] dalvik.vm.isa.arm64.variant=kryo
+[    0.620242] dalvik.vm.isa.arm64.features=default
+[    0.620247] dalvik.vm.usejit=true
+[    0.620252] dalvik.vm.heapsize=512m
+[    0.620257] dalvik.vm.dex2oat-Xms=64m
+[    0.620262] dalvik.vm.dex2oat-Xmx=512m
+[    0.620267] dalvik.vm.heapmaxfree=16m
+[    0.620272] dalvik.vm.heapminfree=4m
+[    0.620277] dalvik.vm.heapstartsize=8m
+[    0.620282] dalvik.vm.appimageformat=lz4
+[    0.620287] dalvik.vm.usejitprofiles=true
+[    0.620292] dalvik.vm.heapgrowthlimit=256m
+[    0.620297] dalvik.vm.stack-trace-file=/data/anr/traces.txt
+[    0.620304] dalvik.vm.image-dex2oat-Xms=64m
+[    0.620309] dalvik.vm.image-dex2oat-Xmx=64m
+[    0.620314] dalvik.vm.heaptargetutilization=0.25
+[    0.620320] ro.config.ringtone=01_Life_Is_Good.ogg
+[    0.620326] ro.config.alarm_alert=Life_Is_Good_Alarm.ogg
+[    0.620331] ro.config.timer_alert=Timer.ogg
+[    0.620335] ro.config.vibrate_type=1
+[    0.620342] ro.config.max_starting_bg=32
+[    0.620347] ro.config.vc_call_vol_steps=7
+[    0.620352] ro.config.notification_sound=Crystal.ogg
+[    0.620357] ro.config.vc_call_vol_default=4
+[    0.620362] config.disable_otadexopt=true
+[    0.620434] ro.build.fingerprint=lge/lucye_global_com/lucye:7.0/NRD90U/170882100ac9a:user/release-keys
+[    0.620495] af.fast_track_multiplier=1
+[    0.620502] bt.max.hfpclient.connections=1
+[    0.620509] mm.enable.qcom_parser=1048575
+[    0.620514] mm.enable.smoothstreaming=true
+[    0.620519] pm.dexopt.boot=verify-profile
+[    0.620524] pm.dexopt.ab-ota=speed-profile
+[    0.620530] pm.dexopt.install=interpret-only
+[    0.620535] pm.dexopt.core-app=speed
+[    0.620551] pm.dexopt.bg-dexopt=speed-profile
+[    0.620557] pm.dexopt.first-boot=interpret-only
+[    0.620562] pm.dexopt.shared-apk=speed
+[    0.620567] pm.dexopt.nsys-library=speed
+[    0.620572] pm.dexopt.forced-dexopt=speed
+[    0.620579] ro.qc.sdk.audio.ssr=false
+[    0.620584] ro.qc.sdk.audio.fluencetype=nxp
+[    0.620589] ro.adb.secure=1
+[    0.620594] ro.com.lge.mada=gms_4.0
+[    0.620599] ro.com.google.apphider=on
+[    0.620604] ro.com.google.gmsversion=7.0_r5
+[    0.620609] ro.dev.fmode=0
+[    0.620613] ro.dev.fmode_exif=0
+[    0.620618] ro.frp.pst=/dev/block/bootdevice/by-name/persistent
+[    0.620623] ro.lge.hw.cable=LT_56K
+[    0.620628] ro.lge.hw.revision=rev_10
+[    0.620635] ro.lge.ns.default=1
+[    0.620640] ro.lge.op.integration=1
+[    0.620645] ro.lge.nfc.hce_f.exception=true
+[    0.620650] ro.lge.sbp.opresize=50
+[    0.620655] ro.lge.sbp.opresizeratio=50
+[    0.620660] ro.lge.sbp.opresize_enabled=1
+[    0.620664] ro.lge.gons.enable=true
+[    0.620669] ro.lge.build.branch=msm8996_n_lucye_global_com_mp_lgeyt_170328
+[    0.620674] ro.lge.build.basetag=LAMPNR170209
+[    0.620679] ro.lge.noise.suppression=1
+[    0.620684] ro.lge.voice.clarity=1
+[    0.620689] ro.lge.opensw=HKG-XX
+[    0.620694] ro.lge.hl_mode=1
+[    0.620699] ro.lge.locales.overlay=true
+[    0.620703] ro.lge.sim_num=2
+[    0.620710] ro.lge.flexgpio=1
+[    0.620715] ro.lge.revshare=2015
+[    0.620720] ro.lge.singleca.enable=1
+[    0.620725] ro.lge.swversion=H87010a
+[    0.620730] ro.lge.amrwb_gpri=1
+[    0.620735] ro.lge.capp_ZDi_O=true
+[    0.620740] ro.lge.capp_cupss.rootdir=/OP
+[    0.620745] ro.lge.cupssgroup=DS2-YT
+[    0.620749] ro.lge.ntcode_mcc=FFF
+[    0.620754] ro.lge.radio_gpri=1
+[    0.620759] ro.lge.support_vr=false
+[    0.620764] ro.lge.fmframework.enabled=true
+[    0.620769] ro.lge.hiddenreset=0
+[    0.620774] ro.lge.lguiversion=6.0
+[    0.620778] ro.lge.swversion_arb=
+[    0.620783] ro.lge.swversion_rev=0
+[    0.620788] ro.lge.swversion_svn=0
+[    0.620793] ro.lge.factoryversion=LGH870DSAT-00-V10a-GLOBAL-COM-MAR-29-2017+0
+[    0.620798] ro.lge.second_network.gw=1
+[    0.620803] ro.lge.swversion_short=V10a
+[    0.620808] ro.lge.vib_magnitude_index=0,75,80,90,95,99,110,117
+[    0.620815] ro.lge.audio_soundexception=true
+[    0.620820] ro.lge.lcd_default_brightness=145
+[    0.620825] ro.lge.lcd_auto_brightness_mode=false
+[    0.620829] ro.nfc.port=I2C
+[    0.620834] ro.opa.eligible_device=true
+[    0.620839] ro.qti.sensors.pmd=false
+[    0.620844] ro.qti.sensors.dev_ori=false
+[    0.620848] ro.qti.sensors.mot_detect=false
+[    0.620853] ro.qti.sensors.sta_detect=false
+[    0.620858] ro.sys.fw.mOomMinFree1=73728
+[    0.620863] ro.sys.fw.mOomMinFree2=92160
+[    0.620868] ro.sys.fw.mOomMinFree3=110592
+[    0.620872] ro.sys.fw.mOomMinFree4=129024
+[    0.620877] ro.sys.fw.mOomMinFree5=325000
+[    0.620882] ro.sys.fw.mOomMinFree6=558304
+[    0.620887] ro.sys.fw.bg_apps_limit=64
+[    0.620891] ro.sys.fw.bg_cached_ratio=0.5
+[    0.620896] ro.boot.mode=pif_56k
+[    0.620901] ro.boot.flash.locked=1
+[    0.620906] ro.boot.svelte=1
+[    0.620911] ro.boot.console=ttyHSL0
+[    0.620916] ro.boot.baseband=msm
+[    0.620920] ro.boot.ddr_info=0x80002ff
+[    0.620925] ro.boot.ddr_size=4294967296
+[    0.620930] ro.boot.hardware=lucye
+[    0.620935] ro.boot.revision=12
+[    0.620940] ro.boot.serialno=LGH870DS72da5e4
+[    0.620945] ro.boot.bootdevice=624000.ufshc
+[    0.620949] ro.boot.dlcomplete=0
+[    0.620954] ro.boot.rpmb_state=1
+[    0.620962] ro.boot.veritymode=enforcing
+[    0.620967] ro.boot.authorized_kernel=true
+[    0.620972] ro.boot.verifiedbootstate=green
+[    0.620977] ro.boot.bl_unlock_complete=false
+[    0.620982] ro.hwui.path_cache_size=32
+[    0.620986] ro.hwui.layer_cache_size=48
+[    0.620991] ro.hwui.gradient_cache_size=1
+[    0.620996] ro.hwui.r_buffer_cache_size=8
+[    0.621001] ro.hwui.drop_shadow_cache_size=6
+[    0.621006] ro.hwui.text_large_cache_width=2048
+[    0.621011] ro.hwui.text_small_cache_width=1024
+[    0.621015] ro.hwui.text_large_cache_height=1024
+[    0.621020] ro.hwui.text_small_cache_height=1024
+[    0.621029] ro.hwui.texture_cache_flushrate=0.4
+[    0.621035] ro.mdtp.package_name2=com.qualcomm.qti.securemsm.mdtp.MdtpDemo
+[    0.621040] ro.wifi.channels=
+[    0.621045] ro.allow.mock.location=0
+[    0.621050] ro.board.platform=msm8996
+[    0.621054] ro.build.id=NRD90U
+[    0.621059] ro.build.sbp=1
+[    0.621064] ro.build.sbp.version=40
+[    0.621069] ro.build.date=Wed Mar 29 21:00:56 KST 2017
+[    0.621074] ro.build.date.utc=1490788856
+[    0.621079] ro.build.host=LGEACI5R9
+[    0.621083] ro.build.tags=release-keys
+[    0.621088] ro.build.type=user
+[    0.621093] ro.build.user=jenkins
+[    0.621098] ro.build.flavor=lucye_global_com-user
+[    0.621103] ro.build.display.id=NRD90U
+[    0.621107] ro.build.product=lucye
+[    0.621112] ro.build.version.sdk=24
+[    0.621117] ro.build.version.base_os=
+[    0.621122] ro.build.version.release=7.0
+[    0.621127] ro.build.version.codename=REL
+[    0.621132] ro.build.version.incremental=170882100ac9a
+[    0.621136] ro.build.version.preview_sdk=0
+[    0.621141] ro.build.version.all_codenames=REL
+[    0.621146] ro.build.version.security_patch=2017-03-01
+[    0.621151] ro.build.description=lucye_global_com-user 7.0 NRD90U 170882100ac9a release-keys
+[    0.621156] ro.build.target_region=ESA
+[    0.621161] ro.build.target_country=COM
+[    0.621167] ro.build.characteristics=default
+[    0.621172] ro.build.target_operator=GLOBAL
+[    0.621177] ro.build.display_manufacture_sn=1
+[    0.621182] ro.model.name=LG-H870DS
+[    0.621187] ro.expect.recovery_id=0x976b5d4b7aa490547224827a841efe20f46b2d0f000000000000000000000000
+[    0.621192] ro.secure=1
+[    0.621197] ro.vendor.at_library=libqti-at.so
+[    0.621202] ro.vendor.gt_library=libqti-gt.so
+[    0.621207] ro.vendor.wl_library=libqti-wl.so
+[    0.621211] ro.vendor.extension_library=libqti-perfd-client.so
+[    0.621216] ro.zygote=zygote64_32
+[    0.621221] ro.carrier=unknown
+[    0.621226] ro.product.cpu.abi=arm64-v8a
+[    0.621231] ro.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
+[    0.621235] ro.product.cpu.abilist32=armeabi-v7a,armeabi
+[    0.621240] ro.product.cpu.abilist64=arm64-v8a
+[    0.621245] ro.product.name=lucye_global_com
+[    0.621250] ro.product.board=msm8996
+[    0.621255] ro.product.brand=lge
+[    0.621260] ro.product.model=LG-H870DS
+[    0.621264] ro.product.device=lucye
+[    0.621269] ro.product.locale=en-GB
+[    0.621274] ro.product.locale.region=GB
+[    0.621279] ro.product.locale.language=en
+[    0.621284] ro.product.manufacturer=LGE
+[    0.621288] ro.product.first_api_level=24
+[    0.621293] ro.airplane.phoneapp=1
+[    0.621298] ro.baseband=msm
+[    0.621303] ro.bootmode=pif_56k
+[    0.621307] ro.hardware=lucye
+[    0.621312] ro.qualcomm.cabl=0
+[    0.621317] ro.revision=12
+[    0.621322] ro.sdcrypto.syscall=378
+[    0.621326] ro.serialno=LGH870DS72da5e4
+[    0.621331] ro.bootimage.build.date=Wed Mar 29 21:00:56 KST 2017
+[    0.621336] ro.bootimage.build.date.utc=1490788856
+[    0.621341] ro.bootimage.build.fingerprint=lge/lucye_global_com/lucye:7.0/NRD90U/170882100ac9a:user/release-keys
+[    0.621346] ro.telephony.emgss=true
+[    0.621351] ro.telephony.default_network=9
+[    0.621356] ro.bootloader=unknown
+[    0.621360] ro.debuggable=0
+[    0.621365] ro.setupwizard.mode=OPTIONAL
+[    0.621370] ro.setupwizard.require_network=any
+[    0.621375] ro.movetosdcard.enable=true
+[    0.621380] ro.use_data_netmgrd=true
+[    0.621384] ro.oem_unlock_supported=1
+[    0.621389] drm.service.enabled=true
+[    0.621394] lge.nfc.vendor=nxp
+[    0.621399] lge.zdi.actionsend=false
+[    0.621403] lge.zdi.dragdropintent=false
+[    0.621408] lge.zdi.onactivityresult=true
+[    0.621413] lge.normalizer.param=version2.0/false/9.6/true/10500/0.8/5200/0.42
+[    0.621418] lge.signed_image=true
+[    0.621423] lge.fm_gain_control_headset=1.3
+[    0.621427] lge.fm_gain_control_speaker=2.5
+[    0.621432] mmp.enable.3g2=true
+[    0.621437] sdm.debug.disable_rotator_split=1
+[    0.621442] sdm.perf_hint_window=50
+[    0.621447] use.qti.sw.ape.decoder=true
+[    0.621453] use.qti.sw.alac.decoder=true
+[    0.621458] use.voice.path.for.pcm.voip=false
+[    0.621467] flac.sw.decoder.24bit.support=true
+[    0.621472] init.svc.healthd=running
+[    0.621477] init.svc.ueventd=running
+[    0.621482] init.svc.recovery=running
+[    0.621487] init.svc.wififtmd=
+[    0.621491] init.svc.dhcpcd_p2p=
+[    0.621496] init.svc.dhcpcd_wlan0=
+[    0.621501] init.svc.iprenew_wlan0=
+[    0.621506] init.svc.p2p_supplicant=
+[    0.621510] qcom.hw.aac.encoder=false
+[    0.621515] qcom.bluetooth.soc=rome
+[    0.621520] rild.libpath=/vendor/lib64/libril-qc-qmi-1.so
+[    0.621525] vidc.enc.dcvs.extra-buff-count=2
+[    0.621530] vidc.enc.disable.pq=true
+[    0.621534] vidc.debug.perf.mode=2
+[    0.621539] wifi.lge.patch=true
+[    0.621544] wifi.lge.profileMgr=true
+[    0.621549] wifi.lge.common_hotspot=true
+[    0.621554] audio.safx.pbe.enabled=true
+[    0.621608] audio.dolby.ds2.enabled=false
+[    0.621613] audio.dolby.ds2.hardbypass=false
+[    0.621618] audio.parser.ip.buffer.size=262144
+[    0.621623] audio.offload.pcm.16bit.enable=false
+[    0.621628] audio.offload.pcm.24bit.enable=true
+[    0.621632] audio.offload.pcm.enable=true
+[    0.621637] audio.offload.24bit.enable=1
+[    0.621642] audio.offload.track.enable=false
+[    0.621647] audio.offload.video=false
+[    0.621652] audio.offload.buffer.size.kb=64
+[    0.621657] audio.offload.gapless.enabled=true
+[    0.621662] audio.offload.multiaac.enable=true
+[    0.621666] audio.offload.multiple.enabled=true
+[    0.621671] audio.offload.passthrough=true
+[    0.621676] audio.hifi_rec.normal_lcf=75
+[    0.621681] audio.hifi_rec.normal_lmt=-3
+[    0.621686] audio.hifi_rec.concert_lcf=0
+[    0.621691] audio.hifi_rec.concert_lmt=0
+[    0.621695] audio.hifi_rec.normal_gain=30
+[    0.621700] audio.hifi_rec.offset_gain=37
+[    0.621705] audio.hifi_rec.concert_gain=-150
+[    0.621710] audio.deep_buffer.media=true
+[    0.621715] media.stagefright.enable-aac=true
+[    0.621720] media.stagefright.enable-qcp=true
+[    0.621725] media.stagefright.enable-http=true
+[    0.621730] media.stagefright.enable-scan=true
+[    0.621734] media.stagefright.enable-player=true
+[    0.621739] media.aac_51_output_enabled=true
+[    0.621744] Camera.no_navigation_bar=true
+[    0.621749] tunnel.audio.encode=false
+[    0.621754] persist.fp.show_percent=false
+[    0.621759] persist.mm.enable.prefetch=true
+[    0.621764] persist.ts.rtmakeup=false
+[    0.621768] persist.ts.postmakeup=false
+[    0.621773] persist.cne.feature=1
+[    0.621778] persist.dpm.feature=0
+[    0.621783] persist.gsm.sms.disablelog=64
+[    0.621788] persist.hwc.enable_vds=1
+[    0.621793] persist.lge.hifiquaddac=true
+[    0.621798] persist.qfp=false
+[    0.621802] persist.data.df.agg.dl_pkt=10
+[    0.621807] persist.data.df.agg.dl_size=4096
+[    0.621812] persist.data.df.dl_mode=5
+[    0.621817] persist.data.df.ul_mode=5
+[    0.621822] persist.data.df.dev_name=rmnet_usb0
+[    0.621826] persist.data.df.iwlan_mux=9
+[    0.621831] persist.data.df.mux_count=8
+[    0.621836] persist.data.wda.enable=true
+[    0.621841] persist.data.mode=concurrent
+[    0.621846] persist.data.netmgrd.qos.enable=true
+[    0.621851] persist.demo.hdmirotationlock=false
+[    0.621856] persist.rild.nitz_plmn=
+[    0.621860] persist.rild.nitz_long_ons_0=
+[    0.621865] persist.rild.nitz_long_ons_1=
+[    0.621870] persist.rild.nitz_long_ons_2=
+[    0.621875] persist.rild.nitz_long_ons_3=
+[    0.621880] persist.rild.nitz_short_ons_0=
+[    0.621884] persist.rild.nitz_short_ons_1=
+[    0.621889] persist.rild.nitz_short_ons_2=
+[    0.621894] persist.rild.nitz_short_ons_3=
+[    0.621899] persist.spkr.cal.duration=0
+[    0.621909] persist.hvdcp.allow_opti=1
+[    0.621915] persist.qcril.disable_retry=true
+[    0.621920] persist.rmnet.data.enable=true
+[    0.621924] persist.timed.enable=true
+[    0.621929] persist.bdroid.hci.timeout=0
+[    0.621934] persist.speaker.prot.enable=true
+[    0.621939] persist.telephony.oosisdc=false
+[    0.621943] persist.delta_time.enable=true
+[    0.621948] persist.fuse_sdcard=true
+[    0.621953] persist.ASDivOnOffSupport=0
+[    0.621958] audio_hal.period_size=192
+[    0.621963] telephony.lteOnCdmaDevice=1
+[    0.621974] hdr_capable=1
+[    0.621979] DEVICE_PROVISIONED=1
+[    0.621985] tangible_device_config=B1BCNAOTNA
+[    0.622112] persist.debug.wfd.enable=1
+[    0.622123] persist.debug.sensors.hal=i
+[    0.622128] persist.debug.coresight.config=stm-events
+[    0.622170] persist.audio.voice.clarity=off
+[    0.622177] persist.audio.fluence.speaker=true
+[    0.622185] persist.audio.fluence.voicerec=false
+[    0.622190] persist.audio.fluence.voicecall=true
+[    0.622195] persist.audio.hifi_dac=OFF
+[    0.622200] persist.audio.nsenabled=ON
+[    0.622205] persist.audio.dual_audio=ON
+[    0.622211] persist.audio.twin_headset=DISABLE
+[    0.622216] persist.audio.handset_rx_type=DEFAULT
+[    0.622221] persist.audio.twin_headset_on=0
+[    0.622265] security.perf_harden=1
+[    0.622367] log.tag.NlpProxy=DEBUG
+[    0.622375] log.tag.LocSvc_java=DEBUG
+[    0.622380] log.tag.GeofenceProxy=DEBUG
+[    0.622387] log.tag.GeofenceManager=DEBUG
+[    0.622392] log.tag.LgeGpsIndicator=DEBUG
+[    0.622397] log.tag.FlpServiceProvider=DEBUG
+[    0.622402] log.tag.GpsLocationProvider=DEBUG
+[    0.622407] log.tag.GeofenceHardwareImpl=DEBUG
+[    0.622412] log.tag.LocationManagerService=DEBUG
+[    0.622530] debug.sf.hw=1
+[    0.622538] debug.egl.hw=1
+[    0.622543] debug.atrace.tags.enableflags=0
+[    0.622550] debug.enable.gamed=0
+[    0.622555] debug.qualcomm.sns.daemon=i
+[    0.622560] debug.qualcomm.sns.libsensor1=e
+[    0.622602] ro.bluetooth.wipower=false
+[    0.622609] ro.bluetooth.emb_wp_mode=true
+[    0.622616] persist.service.bdroid.sap=true
+[    0.622703] dhcp.ap.macaddress=
+[    0.622710] dhcp.p2p.pid=
+[    0.622715] dhcp.p2p.dns1=
+[    0.622722] dhcp.p2p.mask=
+[    0.622727] dhcp.p2p.reason=
+[    0.622732] dhcp.p2p.result=
+[    0.622737] dhcp.p2p.server=
+[    0.622741] dhcp.p2p.gateway=
+[    0.622747] dhcp.p2p.ipaddress=
+[    0.622753] dhcp.p2p.leasetime=
+[    0.622758] dhcp.p2p.vendorInfo=
+[    0.622763] dhcp.wlan0.pid=
+[    0.622768] dhcp.wlan0.dns1=
+[    0.622773] dhcp.wlan0.dns2=
+[    0.622777] dhcp.wlan0.mask=
+[    0.622782] dhcp.wlan0.domain=
+[    0.622787] dhcp.wlan0.reason=
+[    0.622792] dhcp.wlan0.result=
+[    0.622798] dhcp.wlan0.server=
+[    0.622803] dhcp.wlan0.gateway=
+[    0.622808] dhcp.wlan0.ipaddress=
+[    0.622813] dhcp.wlan0.leasetime=
+[    0.622818] dhcp.wlan0.vendorInfo=
+[    0.622823] wifi.lge.supportp2p5g=full
+[    0.622891] dev.pm.dyn_samplingrate=1
+[    0.622899] net.bt.name=Android
+[    0.622906] net.change=net.bt.name
+[    0.622911] sbp.bootanim=1
+[    0.622916] sys.knockon.knockoff.distance=10
+[    0.622921] sys.post_boot.parsed=0
+[    0.622928] wlan.lge.dcf.enable=true
+[    0.622933] wlan.lge.wfd.source=true
+[    0.622937] wlan.lge.wfd.bitratecontrol=true
+[    0.622942] wlan.lge.gons.scan.scanonly=false
+[    0.622947] wlan.lge.gons.scan.completed=false
+[    0.622952] wlan.lge.traffic.trigger=100
+[    0.622958] wlan.lge.txpower=2
+[    0.622963] wlan.lge.softap5g=true
+[    0.622968] wlan.lge.softapwps=false
+[    0.622973] wlan.lge.concurrency=MCC
+[    0.622978] wlan.lge.fastroaming=true
+[    0.622983] wlan.lge.wifidisplay=both
+[    0.622988] wlan.lge.supportsimaka=yes
+[    0.622992] wlan.lge.passpoint_setting=true
+[    0.623002] wlan.chip.vendor=brcm
+[    0.623007] wlan.chip.version=bcm43455
+[    0.623014] persist.sys.ssr.restart_level=ALL_ENABLE
+[    0.623019] persist.sys.wfd.virtual=0
+[    0.623024] persist.sys.cust.lte_config=true
+[    0.623029] persist.sys.cupss.changed=0
+[    0.623034] persist.sys.cupss.default=/OP/OPEN_HK_DS
+[    0.623039] persist.sys.cupss.next-root=/OP/OPEN_HK_DS
+[    0.623043] persist.sys.cupss.integration=0
+[    0.623048] persist.sys.cupss.prev-rootdir=/OP/OPEN_HK_DS
+[    0.623053] persist.sys.dalvik.vm.lib.2=libart.so
+[    0.623058] persist.sys.ntcode="1","FFF,FFF,FFFFFFFF,FFFFFFFF,54"
+[    0.623063] persist.sys.op_info=OPEN_HK_DS
+[    0.623068] persist.sys.op_name=OPEN_HK
+[    0.623073] persist.sys.pd_enable=0
+[    0.623078] persist.sys.strictmode.disable=true
+[    0.623085] persist.sys.mccmnc-list=FFFFFF
+[    0.623090] persist.sys.subset-list=54
+[    0.623095] persist.sys.ntcode-changed=F
+[    0.623107] persist.sys.store_demo_enabled=0
+[    0.623113] persist.service.fg.enable=0
+[    0.623118] persist.service.xfrm.enable=0
+[    0.623123] persist.service.crash.enable=0
+[    0.623128] persist.service.power.enable=0
+[    0.623133] persist.service.memory.enable=0
+[    0.623138] persist.service.packet.enable=0
+[    0.623142] persist.service.odm_log.svc=true
+[    0.623147] persist.service.odm_log.noti=true
+[    0.623152] persist.service.storage.low=0
+[    0.623157] persist.service.removelog=0
+[    0.623162] service.bt.support.busytone=true
+[    0.623169] ril.subscription.types=NV,RUIM
+[    0.623174] persist.lg.data.fd=-1
+[    0.623179] persist.lg.data.llkklk=false
+[    0.623184] persist.radio.multisim.config=dsds
+[    0.623189] persist.radio.custom_ecc=1
+[    0.623193] persist.radio.sib16_support=1
+[    0.623198] persist.radio.apm_sim_not_pwdn=1
+[    0.623233] net.dns1=
+[    0.623241] net.dns2=
+[    0.623248]
+[    0.623257] Supported API: 3
+[    0.630763]
+[    0.630798] -- Wiping data...
+[    0.681046] [LGE][Recovery] Formatting /cache... START. Sun Jan  1 00:28:01 2017
+[    0.681067]
+[    0.717312] Creating filesystem with parameters:
+[    0.717373]     Size: 536870912
+[    0.717381]     Block size: 4096
+[    0.717389]     Blocks per group: 32768
+[    0.717395]     Inodes per group: 8192
+[    0.717402]     Inode size: 256
+[    0.717408]     Journal blocks: 2048
+[    0.717415]     Label: 
+[    0.717422]     Blocks: 131072
+[    0.717428]     Block groups: 4
+[    0.717434]     Reserved block group size: 31
+[    0.717441] Created filesystem with 11/32768 inodes and 4206/131072 blocks
+[    0.776492] warning: wipe_block_device: Wipe used discard instead of secure discard
+[    0.776520]
+[    0.863368] [LGE][Recovery] Formatting /cache... END, result:succeed, Sun Jan  1 00:28:01 2017
+[    0.863418]
+[    0.878359] [LGE][Recovery][I] Data wipe complete. Sun Jan  1 00:28:01 2017
+[    0.878418]
+[    0.944469] [LGE][Recovery] Formatting /eksst... START. Sun Jan  1 00:28:01 2017
+[    0.944528]
+[    1.039479] [LGE][Recovery] Formatting /eksst... END, result:succeed, Sun Jan  1 00:28:01 2017
+[    1.039541]
+[    1.043628] do nothing
+[    1.043653] /persist-lg/lg_persist_property detected
+[    1.044817] /persist-lg/property detected
+[    1.045565] /persist-lg/tmo detected
+[    1.045612] E:unknown volume for path [/cust]
+[    1.061345] /cust not mounted
+[    1.061677] do nothing
+[    1.061693] /OP/_SMARTCA_RES detected
+[    1.062353] [LGE][Recovery] cc_mode set_ftm_item success~!!!
+[    1.094074] /persist-lg/kmstore detected
+[    1.098575] I:Saving locale "en_US"

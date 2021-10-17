@@ -1,0 +1,1 @@
+*** command 'lshal debug -E vendor.qti.hardware.perf@1.0::IPerf/default' failed: exit code 128

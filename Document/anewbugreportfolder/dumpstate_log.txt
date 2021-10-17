@@ -1,0 +1,630 @@
+can't find the pid
+Failed to find: /data/misc/anrd/
+Skipping systrace because '/sys/kernel/debug/tracing/tracing_on' content is '0'
+Adding dir /cache/recovery (recursive: 1)
+Duration of '/cache/recovery': 0.137s
+Adding dir /data/misc/recovery (recursive: 1)
+Duration of '/data/misc/recovery': 0.003s
+Adding dir /data/misc/update_engine_log (recursive: 1)
+Duration of '/data/misc/update_engine_log': 0.000s
+Adding dir /data/misc/logd (recursive: 0)
+/data/misc/logd: No such file or directory
+Duration of '/data/misc/logd': 0.000s
+MOUNT INFO: 71 entries added to zip file
+Duration of 'MOUNT INFO': 0.064s
+execvp on command 'ss -eionptu' failed (error: No such file or directory)
+*** command 'ss -eionptu' failed: exit code 1
+execvp on command 'iotop -n 1 -m 100' failed (error: No such file or directory)
+*** command 'iotop -n 1 -m 100' failed: exit code 1
+Warning: Skipping "android.frameworks.displayservice@1.0::IDisplayService/default": cannot be fetched from service manager (null)
+Warning: Skipping "android.frameworks.schedulerservice@1.0::ISchedulingPolicyService/default": cannot be fetched from service manager (null)
+Warning: Skipping "android.frameworks.sensorservice@1.0::ISensorManager/default": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.audio.effect@4.0::IEffectsFactory/default": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.audio@4.0::IDevicesFactory/default": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.biometrics.fingerprint@2.1::IBiometricsFingerprint/default": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.bluetooth@1.0::IBluetoothHci/default": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.camera.provider@2.4::ICameraProvider/legacy/0": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.cas@1.0::IMediaCasService/default": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.configstore@1.1::ISurfaceFlingerConfigs/default": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.drm@1.0::ICryptoFactory/clearkey": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.drm@1.0::ICryptoFactory/default": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.drm@1.0::ICryptoFactory/widevine": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.drm@1.0::IDrmFactory/clearkey": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.drm@1.0::IDrmFactory/default": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.drm@1.0::IDrmFactory/widevine": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.drm@1.1::ICryptoFactory/clearkey": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.drm@1.1::ICryptoFactory/widevine": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.drm@1.1::IDrmFactory/clearkey": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.drm@1.1::IDrmFactory/widevine": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.gatekeeper@1.0::IGatekeeper/default": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.gnss@1.0::IGnss/default": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.gnss@1.0::IGnss/gnss_vendor": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.graphics.composer@2.1::IComposer/default": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.health@2.0::IHealth/backup": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.health@2.0::IHealth/default": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.keymaster@3.0::IKeymasterDevice/default": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.light@2.0::ILight/default": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.media.omx@1.0::IOmx/default": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.media.omx@1.0::IOmxStore/default": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.memtrack@1.0::IMemtrack/default": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.nfc@1.0::INfc/default": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.power@1.0::IPower/default": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.power@1.1::IPower/default": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.power@1.2::IPower/default": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.radio.config@1.0::IRadioConfig/default": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.radio@1.0::IRadio/slot1": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.radio@1.0::IRadio/slot2": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.radio@1.0::ISap/slot1": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.radio@1.0::ISap/slot2": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.radio@1.1::IRadio/slot1": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.radio@1.1::IRadio/slot2": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.radio@1.1::ISap/slot1": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.radio@1.1::ISap/slot2": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.secure_element@1.0::ISecureElement/SIM1": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.sensors@1.0::ISensors/default": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.soundtrigger@2.0::ISoundTriggerHw/default": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.soundtrigger@2.1::ISoundTriggerHw/default": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.tetheroffload.config@1.0::IOffloadConfig/default": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.tetheroffload.control@1.0::IOffloadControl/default": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.thermal@1.0::IThermal/default": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.usb@1.0::IUsb/default": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.wifi.supplicant@1.0::ISupplicant/default": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.wifi.supplicant@1.1::ISupplicant/default": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.wifi@1.0::IWifi/default": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.wifi@1.1::IWifi/default": cannot be fetched from service manager (null)
+Warning: Skipping "android.hardware.wifi@1.2::IWifi/default": cannot be fetched from service manager (null)
+Warning: Skipping "android.hidl.allocator@1.0::IAllocator/ashmem": cannot be fetched from service manager (null)
+Warning: Skipping "android.hidl.base@1.0::IBase/AtCmdFwdService": cannot be fetched from service manager (null)
+Warning: Skipping "android.hidl.base@1.0::IBase/SIM1": cannot be fetched from service manager (null)
+Warning: Skipping "android.hidl.base@1.0::IBase/Uim0": cannot be fetched from service manager (null)
+Warning: Skipping "android.hidl.base@1.0::IBase/Uim1": cannot be fetched from service manager (null)
+Warning: Skipping "android.hidl.base@1.0::IBase/UimLpa0": cannot be fetched from service manager (null)
+Warning: Skipping "android.hidl.base@1.0::IBase/UimLpa1": cannot be fetched from service manager (null)
+Warning: Skipping "android.hidl.base@1.0::IBase/ashmem": cannot be fetched from service manager (null)
+Warning: Skipping "android.hidl.base@1.0::IBase/atservice": cannot be fetched from service manager (null)
+Warning: Skipping "android.hidl.base@1.0::IBase/backup": cannot be fetched from service manager (null)
+Warning: Skipping "android.hidl.base@1.0::IBase/clearkey": cannot be fetched from service manager (null)
+Warning: Skipping "android.hidl.base@1.0::IBase/default": cannot be fetched from service manager (null)
+Warning: Skipping "android.hidl.base@1.0::IBase/dpmQmiService": cannot be fetched from service manager (null)
+Warning: Skipping "android.hidl.base@1.0::IBase/gnss_vendor": cannot be fetched from service manager (null)
+Warning: Skipping "android.hidl.base@1.0::IBase/imsradio0": cannot be fetched from service manager (null)
+Warning: Skipping "android.hidl.base@1.0::IBase/imsradio1": cannot be fetched from service manager (null)
+Warning: Skipping "android.hidl.base@1.0::IBase/legacy/0": cannot be fetched from service manager (null)
+Warning: Skipping "android.hidl.base@1.0::IBase/lge_radio": cannot be fetched from service manager (null)
+Warning: Skipping "android.hidl.base@1.0::IBase/lge_radio2": cannot be fetched from service manager (null)
+Warning: Skipping "android.hidl.base@1.0::IBase/lge_radio_test": cannot be fetched from service manager (null)
+Warning: Skipping "android.hidl.base@1.0::IBase/oemhook0": cannot be fetched from service manager (null)
+Warning: Skipping "android.hidl.base@1.0::IBase/oemhook1": cannot be fetched from service manager (null)
+Warning: Skipping "android.hidl.base@1.0::IBase/radio1_wifi": cannot be fetched from service manager (null)
+Warning: Skipping "android.hidl.base@1.0::IBase/radio2_wifi": cannot be fetched from service manager (null)
+Warning: Skipping "android.hidl.base@1.0::IBase/slot1": cannot be fetched from service manager (null)
+Warning: Skipping "android.hidl.base@1.0::IBase/slot2": cannot be fetched from service manager (null)
+Warning: Skipping "android.hidl.base@1.0::IBase/uimRemoteClient0": cannot be fetched from service manager (null)
+Warning: Skipping "android.hidl.base@1.0::IBase/uimRemoteClient1": cannot be fetched from service manager (null)
+Warning: Skipping "android.hidl.base@1.0::IBase/uimRemoteServer0": cannot be fetched from service manager (null)
+Warning: Skipping "android.hidl.base@1.0::IBase/uimRemoteServer1": cannot be fetched from service manager (null)
+Warning: Skipping "android.hidl.base@1.0::IBase/widevine": cannot be fetched from service manager (null)
+Warning: Skipping "android.hidl.base@1.0::IBase/wifidisplaydshal": cannot be fetched from service manager (null)
+Warning: Skipping "android.hidl.base@1.0::IBase/wifidisplayhdcphal": cannot be fetched from service manager (null)
+Warning: Skipping "android.hidl.token@1.0::ITokenManager/default": cannot be fetched from service manager (null)
+Warning: Skipping "android.system.net.netd@1.0::INetd/default": cannot be fetched from service manager (null)
+Warning: Skipping "android.system.net.netd@1.1::INetd/default": cannot be fetched from service manager (null)
+Warning: Skipping "android.system.wifi.keystore@1.0::IKeystore/default": cannot be fetched from service manager (null)
+Warning: Skipping "com.qualcomm.qti.dpm.api@1.0::IdpmQmi/dpmQmiService": cannot be fetched from service manager (null)
+Warning: Skipping "com.qualcomm.qti.wifidisplayhal@1.0::IDSManager/wifidisplaydshal": cannot be fetched from service manager (null)
+Warning: Skipping "com.qualcomm.qti.wifidisplayhal@1.0::IHDCPSession/wifidisplayhdcphal": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.display.color@1.0::IDisplayColor/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.display.config@1.0::IDisplayConfig/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.display.config@1.1::IDisplayConfig/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.display.postproc@1.0::IDisplayPostproc/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.accessory.uevent@1.0::IAccessoryUevent/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.accessory@1.0::IAccessory/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.aod.aodcommon@1.0::IAodCommon/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.aod.aodpower@1.0::IAodPower/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.aod.aodview@1.0::IAodView/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.battery@1.0::IBattery/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.biometrics.fingerprint@2.1::ILgeBiometricsFingerprint/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.bootproperty@1.0::IBootProperty/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.charger@1.0::ICharger/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.configstore@1.0::ICodecParserConfigs/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.configstore@1.0::IConfigStore/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.configstore@1.0::IGlobalConfigs/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.configstore@1.0::IPowerConfigs/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.data@1.0::IData/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.display.brightness@1.0::IDisplayBrightness/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.display.general@1.0::IDisplayGeneral/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.display.tune@1.0::IDisplayTune/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.display.uevent@1.0::IDisplayUevent/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.fido@1.0::ILgeFido/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.fingertest@1.0::IFingerTest/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.ftmitem@1.0::IFtmitem/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.gnss@1.0::ILgeGnss/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.laop@1.0::ILgeLaop/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.lgatcmd@1.0::ILgAtCmd/atservice": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.lgatcmd@1.0::ILgAtCmd/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.lgmd@1.0::ILgmd/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.light@1.0::ILightEx/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.lpwg@1.0::ILpwg/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.lpwg@1.1::ILpwg/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.msp@1.0::IMsp/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.nfc@1.0::ILgeNfc/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.platform@1.0::IPlatform/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.platform@1.1::IPlatform/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.powercontrol@1.0::IPowercontrol/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.powerhint.rescontrol@2.0::IResControl/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.property@1.0::IProperty/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.property@1.1::IProperty/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.property@1.2::IProperty/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.radio@1.0::ILgeRadio/lge_radio": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.radio@1.0::ILgeRadio/lge_radio2": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.radio@1.0::ILgeRadio/radio1_wifi": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.radio@1.0::ILgeRadio/radio2_wifi": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.radio@1.0::ILgeRadioPcfalcon/lge_radio_test": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.radio@1.0::ILgeRadioTest/lge_radio_test": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.radio@1.1::ILgeRadio/lge_radio": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.radio@1.1::ILgeRadio/lge_radio2": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.radio@1.1::ILgeRadio/radio1_wifi": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.radio@1.1::ILgeRadio/radio2_wifi": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.sdcardtray@1.0::ISDCardTray/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.securefuse@1.0::ISecureFuse/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.sensortest@1.0::ISensorTest/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.soi@1.0::ISoi/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.storageinfo@1.0::IStorageInfo/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.thermal@1.0::IThermal/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.touch@1.0::ITouch/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.usb.uevent@1.0::IUsbUEvent/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.usb@1.0::ILgeUsb/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.vibrator@1.0::IVibratorEx/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.vss_ims@1.0::IVssIms/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.lge.hardware.wifi.hal@1.0::IWifiLgeHal/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.qti.data.factory@1.0::IFactory/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.qti.data.factory@1.1::IFactory/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.qti.esepowermanager@1.0::IEsePowerManager/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.qti.gnss@1.0::ILocHidlGnss/gnss_vendor": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.qti.hardware.alarm@1.0::IAlarm/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.qti.hardware.data.connection@1.0::IDataConnection/slot1": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.qti.hardware.data.connection@1.0::IDataConnection/slot2": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.qti.hardware.data.latency@1.0::ILinkLatency/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.qti.hardware.perf@1.0::IPerf/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.qti.hardware.qdutils_disp@1.0::IQdutilsDisp/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.qti.hardware.qteeconnector@1.0::IAppConnector/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.qti.hardware.qteeconnector@1.0::IGPAppConnector/default": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.qti.hardware.radio.am@1.0::IQcRilAudio/slot1": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.qti.hardware.radio.am@1.0::IQcRilAudio/slot2": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.qti.hardware.radio.atcmdfwd@1.0::IAtCmdFwd/AtCmdFwdService": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.qti.hardware.radio.ims@1.0::IImsRadio/imsradio0": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.qti.hardware.radio.ims@1.0::IImsRadio/imsradio1": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.qti.hardware.radio.lpa@1.0::IUimLpa/UimLpa0": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.qti.hardware.radio.lpa@1.0::IUimLpa/UimLpa1": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.qti.hardware.radio.qcrilhook@1.0::IQtiOemHook/oemhook0": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.qti.hardware.radio.qcrilhook@1.0::IQtiOemHook/oemhook1": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.qti.hardware.radio.qtiradio@1.0::IQtiRadio/slot1": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.qti.hardware.radio.qtiradio@1.0::IQtiRadio/slot2": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.qti.hardware.radio.uim@1.0::IUim/Uim0": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.qti.hardware.radio.uim@1.0::IUim/Uim1": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.qti.hardware.radio.uim@1.1::IUim/Uim0": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.qti.hardware.radio.uim@1.1::IUim/Uim1": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.qti.hardware.radio.uim_remote_client@1.0::IUimRemoteServiceClient/uimRemoteClient0": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.qti.hardware.radio.uim_remote_client@1.0::IUimRemoteServiceClient/uimRemoteClient1": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.qti.hardware.radio.uim_remote_server@1.0::IUimRemoteServiceServer/uimRemoteServer0": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.qti.hardware.radio.uim_remote_server@1.0::IUimRemoteServiceServer/uimRemoteServer1": cannot be fetched from service manager (null)
+Warning: Skipping "vendor.qti.hardware.tui_comm@1.0::ITuiComm/default": cannot be fetched from service manager (null)
+*** command 'lshal' timed out after 2.007s (killing pid 26446)
+android.frameworks.displayservice@1.0::IDisplayService/default does not exist, or no permission to connect.
+*** command 'lshal debug -E android.frameworks.displayservice@1.0::IDisplayService/default' failed: exit code 128
+android.frameworks.schedulerservice@1.0::ISchedulingPolicyService/default does not exist, or no permission to connect.
+*** command 'lshal debug -E android.frameworks.schedulerservice@1.0::ISchedulingPolicyService/default' failed: exit code 128
+android.frameworks.sensorservice@1.0::ISensorManager/default does not exist, or no permission to connect.
+*** command 'lshal debug -E android.frameworks.sensorservice@1.0::ISensorManager/default' failed: exit code 128
+android.hardware.audio.effect@4.0::IEffectsFactory/default does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.audio.effect@4.0::IEffectsFactory/default' failed: exit code 128
+android.hardware.audio@4.0::IDevicesFactory/default does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.audio@4.0::IDevicesFactory/default' failed: exit code 128
+android.hardware.biometrics.fingerprint@2.1::IBiometricsFingerprint/default does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.biometrics.fingerprint@2.1::IBiometricsFingerprint/default' failed: exit code 128
+android.hardware.bluetooth@1.0::IBluetoothHci/default does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.bluetooth@1.0::IBluetoothHci/default' failed: exit code 128
+android.hardware.camera.provider@2.4::ICameraProvider/legacy/0 does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.camera.provider@2.4::ICameraProvider/legacy/0' failed: exit code 128
+android.hardware.cas@1.0::IMediaCasService/default does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.cas@1.0::IMediaCasService/default' failed: exit code 128
+android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default' failed: exit code 128
+android.hardware.configstore@1.1::ISurfaceFlingerConfigs/default does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.configstore@1.1::ISurfaceFlingerConfigs/default' failed: exit code 128
+android.hardware.drm@1.0::ICryptoFactory/clearkey does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.drm@1.0::ICryptoFactory/clearkey' failed: exit code 128
+android.hardware.drm@1.0::ICryptoFactory/default does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.drm@1.0::ICryptoFactory/default' failed: exit code 128
+android.hardware.drm@1.0::ICryptoFactory/widevine does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.drm@1.0::ICryptoFactory/widevine' failed: exit code 128
+android.hardware.drm@1.0::IDrmFactory/clearkey does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.drm@1.0::IDrmFactory/clearkey' failed: exit code 128
+android.hardware.drm@1.0::IDrmFactory/default does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.drm@1.0::IDrmFactory/default' failed: exit code 128
+android.hardware.drm@1.0::IDrmFactory/widevine does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.drm@1.0::IDrmFactory/widevine' failed: exit code 128
+android.hardware.drm@1.1::ICryptoFactory/clearkey does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.drm@1.1::ICryptoFactory/clearkey' failed: exit code 128
+android.hardware.drm@1.1::ICryptoFactory/widevine does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.drm@1.1::ICryptoFactory/widevine' failed: exit code 128
+android.hardware.drm@1.1::IDrmFactory/clearkey does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.drm@1.1::IDrmFactory/clearkey' failed: exit code 128
+android.hardware.drm@1.1::IDrmFactory/widevine does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.drm@1.1::IDrmFactory/widevine' failed: exit code 128
+android.hardware.gatekeeper@1.0::IGatekeeper/default does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.gatekeeper@1.0::IGatekeeper/default' failed: exit code 128
+android.hardware.gnss@1.0::IGnss/default does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.gnss@1.0::IGnss/default' failed: exit code 128
+android.hardware.gnss@1.0::IGnss/gnss_vendor does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.gnss@1.0::IGnss/gnss_vendor' failed: exit code 128
+debug() FAILED on android.hardware.graphics.allocator@2.0::IAllocator/default: Status(EX_TRANSACTION_FAILED): 'FAILED_TRANSACTION: '
+android.hardware.graphics.composer@2.1::IComposer/default does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.graphics.composer@2.1::IComposer/default' failed: exit code 128
+android.hardware.health@2.0::IHealth/backup does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.health@2.0::IHealth/backup' failed: exit code 128
+android.hardware.health@2.0::IHealth/default does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.health@2.0::IHealth/default' failed: exit code 128
+android.hardware.keymaster@3.0::IKeymasterDevice/default does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.keymaster@3.0::IKeymasterDevice/default' failed: exit code 128
+android.hardware.light@2.0::ILight/default does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.light@2.0::ILight/default' failed: exit code 128
+android.hardware.media.omx@1.0::IOmx/default does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.media.omx@1.0::IOmx/default' failed: exit code 128
+android.hardware.media.omx@1.0::IOmxStore/default does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.media.omx@1.0::IOmxStore/default' failed: exit code 128
+android.hardware.memtrack@1.0::IMemtrack/default does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.memtrack@1.0::IMemtrack/default' failed: exit code 128
+android.hardware.nfc@1.0::INfc/default does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.nfc@1.0::INfc/default' failed: exit code 128
+android.hardware.power@1.0::IPower/default does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.power@1.0::IPower/default' failed: exit code 128
+android.hardware.power@1.1::IPower/default does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.power@1.1::IPower/default' failed: exit code 128
+android.hardware.power@1.2::IPower/default does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.power@1.2::IPower/default' failed: exit code 128
+android.hardware.radio.config@1.0::IRadioConfig/default does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.radio.config@1.0::IRadioConfig/default' failed: exit code 128
+android.hardware.radio@1.0::IRadio/slot1 does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.radio@1.0::IRadio/slot1' failed: exit code 128
+android.hardware.radio@1.0::IRadio/slot2 does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.radio@1.0::IRadio/slot2' failed: exit code 128
+android.hardware.radio@1.0::ISap/slot1 does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.radio@1.0::ISap/slot1' failed: exit code 128
+android.hardware.radio@1.0::ISap/slot2 does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.radio@1.0::ISap/slot2' failed: exit code 128
+android.hardware.radio@1.1::IRadio/slot1 does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.radio@1.1::IRadio/slot1' failed: exit code 128
+android.hardware.radio@1.1::IRadio/slot2 does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.radio@1.1::IRadio/slot2' failed: exit code 128
+android.hardware.radio@1.1::ISap/slot1 does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.radio@1.1::ISap/slot1' failed: exit code 128
+android.hardware.radio@1.1::ISap/slot2 does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.radio@1.1::ISap/slot2' failed: exit code 128
+android.hardware.secure_element@1.0::ISecureElement/SIM1 does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.secure_element@1.0::ISecureElement/SIM1' failed: exit code 128
+android.hardware.sensors@1.0::ISensors/default does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.sensors@1.0::ISensors/default' failed: exit code 128
+android.hardware.soundtrigger@2.0::ISoundTriggerHw/default does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.soundtrigger@2.0::ISoundTriggerHw/default' failed: exit code 128
+android.hardware.soundtrigger@2.1::ISoundTriggerHw/default does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.soundtrigger@2.1::ISoundTriggerHw/default' failed: exit code 128
+android.hardware.tetheroffload.config@1.0::IOffloadConfig/default does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.tetheroffload.config@1.0::IOffloadConfig/default' failed: exit code 128
+android.hardware.tetheroffload.control@1.0::IOffloadControl/default does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.tetheroffload.control@1.0::IOffloadControl/default' failed: exit code 128
+android.hardware.thermal@1.0::IThermal/default does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.thermal@1.0::IThermal/default' failed: exit code 128
+android.hardware.usb@1.0::IUsb/default does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.usb@1.0::IUsb/default' failed: exit code 128
+android.hardware.wifi.supplicant@1.0::ISupplicant/default does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.wifi.supplicant@1.0::ISupplicant/default' failed: exit code 128
+android.hardware.wifi.supplicant@1.1::ISupplicant/default does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.wifi.supplicant@1.1::ISupplicant/default' failed: exit code 128
+android.hardware.wifi@1.0::IWifi/default does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.wifi@1.0::IWifi/default' failed: exit code 128
+android.hardware.wifi@1.1::IWifi/default does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.wifi@1.1::IWifi/default' failed: exit code 128
+android.hardware.wifi@1.2::IWifi/default does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hardware.wifi@1.2::IWifi/default' failed: exit code 128
+android.hidl.allocator@1.0::IAllocator/ashmem does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hidl.allocator@1.0::IAllocator/ashmem' failed: exit code 128
+android.hidl.base@1.0::IBase/AtCmdFwdService does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hidl.base@1.0::IBase/AtCmdFwdService' failed: exit code 128
+android.hidl.base@1.0::IBase/SIM1 does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hidl.base@1.0::IBase/SIM1' failed: exit code 128
+android.hidl.base@1.0::IBase/Uim0 does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hidl.base@1.0::IBase/Uim0' failed: exit code 128
+android.hidl.base@1.0::IBase/Uim1 does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hidl.base@1.0::IBase/Uim1' failed: exit code 128
+android.hidl.base@1.0::IBase/UimLpa0 does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hidl.base@1.0::IBase/UimLpa0' failed: exit code 128
+android.hidl.base@1.0::IBase/UimLpa1 does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hidl.base@1.0::IBase/UimLpa1' failed: exit code 128
+android.hidl.base@1.0::IBase/ashmem does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hidl.base@1.0::IBase/ashmem' failed: exit code 128
+android.hidl.base@1.0::IBase/atservice does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hidl.base@1.0::IBase/atservice' failed: exit code 128
+android.hidl.base@1.0::IBase/backup does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hidl.base@1.0::IBase/backup' failed: exit code 128
+android.hidl.base@1.0::IBase/clearkey does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hidl.base@1.0::IBase/clearkey' failed: exit code 128
+android.hidl.base@1.0::IBase/default does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hidl.base@1.0::IBase/default' failed: exit code 128
+android.hidl.base@1.0::IBase/dpmQmiService does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hidl.base@1.0::IBase/dpmQmiService' failed: exit code 128
+android.hidl.base@1.0::IBase/gnss_vendor does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hidl.base@1.0::IBase/gnss_vendor' failed: exit code 128
+android.hidl.base@1.0::IBase/imsradio0 does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hidl.base@1.0::IBase/imsradio0' failed: exit code 128
+android.hidl.base@1.0::IBase/imsradio1 does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hidl.base@1.0::IBase/imsradio1' failed: exit code 128
+android.hidl.base@1.0::IBase/legacy/0 does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hidl.base@1.0::IBase/legacy/0' failed: exit code 128
+android.hidl.base@1.0::IBase/lge_radio does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hidl.base@1.0::IBase/lge_radio' failed: exit code 128
+android.hidl.base@1.0::IBase/lge_radio2 does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hidl.base@1.0::IBase/lge_radio2' failed: exit code 128
+android.hidl.base@1.0::IBase/lge_radio_test does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hidl.base@1.0::IBase/lge_radio_test' failed: exit code 128
+android.hidl.base@1.0::IBase/oemhook0 does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hidl.base@1.0::IBase/oemhook0' failed: exit code 128
+android.hidl.base@1.0::IBase/oemhook1 does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hidl.base@1.0::IBase/oemhook1' failed: exit code 128
+android.hidl.base@1.0::IBase/radio1_wifi does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hidl.base@1.0::IBase/radio1_wifi' failed: exit code 128
+android.hidl.base@1.0::IBase/radio2_wifi does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hidl.base@1.0::IBase/radio2_wifi' failed: exit code 128
+android.hidl.base@1.0::IBase/slot1 does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hidl.base@1.0::IBase/slot1' failed: exit code 128
+android.hidl.base@1.0::IBase/slot2 does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hidl.base@1.0::IBase/slot2' failed: exit code 128
+android.hidl.base@1.0::IBase/uimRemoteClient0 does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hidl.base@1.0::IBase/uimRemoteClient0' failed: exit code 128
+android.hidl.base@1.0::IBase/uimRemoteClient1 does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hidl.base@1.0::IBase/uimRemoteClient1' failed: exit code 128
+android.hidl.base@1.0::IBase/uimRemoteServer0 does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hidl.base@1.0::IBase/uimRemoteServer0' failed: exit code 128
+android.hidl.base@1.0::IBase/uimRemoteServer1 does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hidl.base@1.0::IBase/uimRemoteServer1' failed: exit code 128
+android.hidl.base@1.0::IBase/widevine does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hidl.base@1.0::IBase/widevine' failed: exit code 128
+android.hidl.base@1.0::IBase/wifidisplaydshal does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hidl.base@1.0::IBase/wifidisplaydshal' failed: exit code 128
+android.hidl.base@1.0::IBase/wifidisplayhdcphal does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hidl.base@1.0::IBase/wifidisplayhdcphal' failed: exit code 128
+debug() FAILED on android.hidl.manager@1.1::IServiceManager/default: Status(EX_TRANSACTION_FAILED): 'FAILED_TRANSACTION: '
+android.hidl.token@1.0::ITokenManager/default does not exist, or no permission to connect.
+*** command 'lshal debug -E android.hidl.token@1.0::ITokenManager/default' failed: exit code 128
+android.system.net.netd@1.0::INetd/default does not exist, or no permission to connect.
+*** command 'lshal debug -E android.system.net.netd@1.0::INetd/default' failed: exit code 128
+android.system.net.netd@1.1::INetd/default does not exist, or no permission to connect.
+*** command 'lshal debug -E android.system.net.netd@1.1::INetd/default' failed: exit code 128
+android.system.wifi.keystore@1.0::IKeystore/default does not exist, or no permission to connect.
+*** command 'lshal debug -E android.system.wifi.keystore@1.0::IKeystore/default' failed: exit code 128
+com.qualcomm.qti.dpm.api@1.0::IdpmQmi/dpmQmiService does not exist, or no permission to connect.
+*** command 'lshal debug -E com.qualcomm.qti.dpm.api@1.0::IdpmQmi/dpmQmiService' failed: exit code 128
+com.qualcomm.qti.wifidisplayhal@1.0::IDSManager/wifidisplaydshal does not exist, or no permission to connect.
+*** command 'lshal debug -E com.qualcomm.qti.wifidisplayhal@1.0::IDSManager/wifidisplaydshal' failed: exit code 128
+com.qualcomm.qti.wifidisplayhal@1.0::IHDCPSession/wifidisplayhdcphal does not exist, or no permission to connect.
+*** command 'lshal debug -E com.qualcomm.qti.wifidisplayhal@1.0::IHDCPSession/wifidisplayhdcphal' failed: exit code 128
+vendor.display.color@1.0::IDisplayColor/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.display.color@1.0::IDisplayColor/default' failed: exit code 128
+vendor.display.config@1.0::IDisplayConfig/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.display.config@1.0::IDisplayConfig/default' failed: exit code 128
+vendor.display.config@1.1::IDisplayConfig/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.display.config@1.1::IDisplayConfig/default' failed: exit code 128
+vendor.display.postproc@1.0::IDisplayPostproc/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.display.postproc@1.0::IDisplayPostproc/default' failed: exit code 128
+vendor.lge.hardware.accessory.uevent@1.0::IAccessoryUevent/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.accessory.uevent@1.0::IAccessoryUevent/default' failed: exit code 128
+vendor.lge.hardware.accessory@1.0::IAccessory/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.accessory@1.0::IAccessory/default' failed: exit code 128
+vendor.lge.hardware.aod.aodcommon@1.0::IAodCommon/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.aod.aodcommon@1.0::IAodCommon/default' failed: exit code 128
+vendor.lge.hardware.aod.aodpower@1.0::IAodPower/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.aod.aodpower@1.0::IAodPower/default' failed: exit code 128
+vendor.lge.hardware.aod.aodview@1.0::IAodView/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.aod.aodview@1.0::IAodView/default' failed: exit code 128
+vendor.lge.hardware.battery@1.0::IBattery/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.battery@1.0::IBattery/default' failed: exit code 128
+vendor.lge.hardware.biometrics.fingerprint@2.1::ILgeBiometricsFingerprint/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.biometrics.fingerprint@2.1::ILgeBiometricsFingerprint/default' failed: exit code 128
+vendor.lge.hardware.bootproperty@1.0::IBootProperty/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.bootproperty@1.0::IBootProperty/default' failed: exit code 128
+vendor.lge.hardware.charger@1.0::ICharger/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.charger@1.0::ICharger/default' failed: exit code 128
+vendor.lge.hardware.configstore@1.0::ICodecParserConfigs/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.configstore@1.0::ICodecParserConfigs/default' failed: exit code 128
+vendor.lge.hardware.configstore@1.0::IConfigStore/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.configstore@1.0::IConfigStore/default' failed: exit code 128
+vendor.lge.hardware.configstore@1.0::IGlobalConfigs/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.configstore@1.0::IGlobalConfigs/default' failed: exit code 128
+vendor.lge.hardware.configstore@1.0::IPowerConfigs/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.configstore@1.0::IPowerConfigs/default' failed: exit code 128
+vendor.lge.hardware.data@1.0::IData/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.data@1.0::IData/default' failed: exit code 128
+vendor.lge.hardware.display.brightness@1.0::IDisplayBrightness/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.display.brightness@1.0::IDisplayBrightness/default' failed: exit code 128
+vendor.lge.hardware.display.general@1.0::IDisplayGeneral/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.display.general@1.0::IDisplayGeneral/default' failed: exit code 128
+vendor.lge.hardware.display.tune@1.0::IDisplayTune/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.display.tune@1.0::IDisplayTune/default' failed: exit code 128
+vendor.lge.hardware.display.uevent@1.0::IDisplayUevent/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.display.uevent@1.0::IDisplayUevent/default' failed: exit code 128
+vendor.lge.hardware.fido@1.0::ILgeFido/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.fido@1.0::ILgeFido/default' failed: exit code 128
+vendor.lge.hardware.fingertest@1.0::IFingerTest/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.fingertest@1.0::IFingerTest/default' failed: exit code 128
+vendor.lge.hardware.ftmitem@1.0::IFtmitem/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.ftmitem@1.0::IFtmitem/default' failed: exit code 128
+vendor.lge.hardware.gnss@1.0::ILgeGnss/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.gnss@1.0::ILgeGnss/default' failed: exit code 128
+vendor.lge.hardware.laop@1.0::ILgeLaop/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.laop@1.0::ILgeLaop/default' failed: exit code 128
+vendor.lge.hardware.lgatcmd@1.0::ILgAtCmd/atservice does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.lgatcmd@1.0::ILgAtCmd/atservice' failed: exit code 128
+vendor.lge.hardware.lgatcmd@1.0::ILgAtCmd/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.lgatcmd@1.0::ILgAtCmd/default' failed: exit code 128
+vendor.lge.hardware.lgmd@1.0::ILgmd/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.lgmd@1.0::ILgmd/default' failed: exit code 128
+vendor.lge.hardware.light@1.0::ILightEx/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.light@1.0::ILightEx/default' failed: exit code 128
+vendor.lge.hardware.lpwg@1.0::ILpwg/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.lpwg@1.0::ILpwg/default' failed: exit code 128
+vendor.lge.hardware.lpwg@1.1::ILpwg/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.lpwg@1.1::ILpwg/default' failed: exit code 128
+vendor.lge.hardware.msp@1.0::IMsp/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.msp@1.0::IMsp/default' failed: exit code 128
+vendor.lge.hardware.nfc@1.0::ILgeNfc/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.nfc@1.0::ILgeNfc/default' failed: exit code 128
+vendor.lge.hardware.platform@1.0::IPlatform/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.platform@1.0::IPlatform/default' failed: exit code 128
+vendor.lge.hardware.platform@1.1::IPlatform/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.platform@1.1::IPlatform/default' failed: exit code 128
+vendor.lge.hardware.powercontrol@1.0::IPowercontrol/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.powercontrol@1.0::IPowercontrol/default' failed: exit code 128
+vendor.lge.hardware.powerhint.rescontrol@2.0::IResControl/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.powerhint.rescontrol@2.0::IResControl/default' failed: exit code 128
+vendor.lge.hardware.property@1.0::IProperty/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.property@1.0::IProperty/default' failed: exit code 128
+vendor.lge.hardware.property@1.1::IProperty/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.property@1.1::IProperty/default' failed: exit code 128
+vendor.lge.hardware.property@1.2::IProperty/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.property@1.2::IProperty/default' failed: exit code 128
+vendor.lge.hardware.radio@1.0::ILgeRadio/lge_radio does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.radio@1.0::ILgeRadio/lge_radio' failed: exit code 128
+vendor.lge.hardware.radio@1.0::ILgeRadio/lge_radio2 does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.radio@1.0::ILgeRadio/lge_radio2' failed: exit code 128
+vendor.lge.hardware.radio@1.0::ILgeRadio/radio1_wifi does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.radio@1.0::ILgeRadio/radio1_wifi' failed: exit code 128
+vendor.lge.hardware.radio@1.0::ILgeRadio/radio2_wifi does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.radio@1.0::ILgeRadio/radio2_wifi' failed: exit code 128
+vendor.lge.hardware.radio@1.0::ILgeRadioPcfalcon/lge_radio_test does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.radio@1.0::ILgeRadioPcfalcon/lge_radio_test' failed: exit code 128
+vendor.lge.hardware.radio@1.0::ILgeRadioTest/lge_radio_test does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.radio@1.0::ILgeRadioTest/lge_radio_test' failed: exit code 128
+vendor.lge.hardware.radio@1.1::ILgeRadio/lge_radio does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.radio@1.1::ILgeRadio/lge_radio' failed: exit code 128
+vendor.lge.hardware.radio@1.1::ILgeRadio/lge_radio2 does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.radio@1.1::ILgeRadio/lge_radio2' failed: exit code 128
+vendor.lge.hardware.radio@1.1::ILgeRadio/radio1_wifi does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.radio@1.1::ILgeRadio/radio1_wifi' failed: exit code 128
+vendor.lge.hardware.radio@1.1::ILgeRadio/radio2_wifi does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.radio@1.1::ILgeRadio/radio2_wifi' failed: exit code 128
+vendor.lge.hardware.sdcardtray@1.0::ISDCardTray/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.sdcardtray@1.0::ISDCardTray/default' failed: exit code 128
+vendor.lge.hardware.securefuse@1.0::ISecureFuse/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.securefuse@1.0::ISecureFuse/default' failed: exit code 128
+vendor.lge.hardware.sensortest@1.0::ISensorTest/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.sensortest@1.0::ISensorTest/default' failed: exit code 128
+vendor.lge.hardware.soi@1.0::ISoi/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.soi@1.0::ISoi/default' failed: exit code 128
+vendor.lge.hardware.storageinfo@1.0::IStorageInfo/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.storageinfo@1.0::IStorageInfo/default' failed: exit code 128
+vendor.lge.hardware.thermal@1.0::IThermal/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.thermal@1.0::IThermal/default' failed: exit code 128
+vendor.lge.hardware.touch@1.0::ITouch/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.touch@1.0::ITouch/default' failed: exit code 128
+vendor.lge.hardware.usb.uevent@1.0::IUsbUEvent/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.usb.uevent@1.0::IUsbUEvent/default' failed: exit code 128
+vendor.lge.hardware.usb@1.0::ILgeUsb/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.usb@1.0::ILgeUsb/default' failed: exit code 128
+vendor.lge.hardware.vibrator@1.0::IVibratorEx/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.vibrator@1.0::IVibratorEx/default' failed: exit code 128
+vendor.lge.hardware.vss_ims@1.0::IVssIms/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.vss_ims@1.0::IVssIms/default' failed: exit code 128
+vendor.lge.hardware.wifi.hal@1.0::IWifiLgeHal/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.lge.hardware.wifi.hal@1.0::IWifiLgeHal/default' failed: exit code 128
+vendor.qti.data.factory@1.0::IFactory/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.qti.data.factory@1.0::IFactory/default' failed: exit code 128
+vendor.qti.data.factory@1.1::IFactory/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.qti.data.factory@1.1::IFactory/default' failed: exit code 128
+vendor.qti.esepowermanager@1.0::IEsePowerManager/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.qti.esepowermanager@1.0::IEsePowerManager/default' failed: exit code 128
+vendor.qti.gnss@1.0::ILocHidlGnss/gnss_vendor does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.qti.gnss@1.0::ILocHidlGnss/gnss_vendor' failed: exit code 128
+vendor.qti.hardware.alarm@1.0::IAlarm/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.qti.hardware.alarm@1.0::IAlarm/default' failed: exit code 128
+vendor.qti.hardware.data.connection@1.0::IDataConnection/slot1 does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.qti.hardware.data.connection@1.0::IDataConnection/slot1' failed: exit code 128
+vendor.qti.hardware.data.connection@1.0::IDataConnection/slot2 does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.qti.hardware.data.connection@1.0::IDataConnection/slot2' failed: exit code 128
+vendor.qti.hardware.data.latency@1.0::ILinkLatency/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.qti.hardware.data.latency@1.0::ILinkLatency/default' failed: exit code 128
+vendor.qti.hardware.perf@1.0::IPerf/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.qti.hardware.perf@1.0::IPerf/default' failed: exit code 128
+vendor.qti.hardware.qdutils_disp@1.0::IQdutilsDisp/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.qti.hardware.qdutils_disp@1.0::IQdutilsDisp/default' failed: exit code 128
+vendor.qti.hardware.qteeconnector@1.0::IAppConnector/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.qti.hardware.qteeconnector@1.0::IAppConnector/default' failed: exit code 128
+vendor.qti.hardware.qteeconnector@1.0::IGPAppConnector/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.qti.hardware.qteeconnector@1.0::IGPAppConnector/default' failed: exit code 128
+vendor.qti.hardware.radio.am@1.0::IQcRilAudio/slot1 does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.qti.hardware.radio.am@1.0::IQcRilAudio/slot1' failed: exit code 128
+vendor.qti.hardware.radio.am@1.0::IQcRilAudio/slot2 does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.qti.hardware.radio.am@1.0::IQcRilAudio/slot2' failed: exit code 128
+vendor.qti.hardware.radio.atcmdfwd@1.0::IAtCmdFwd/AtCmdFwdService does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.qti.hardware.radio.atcmdfwd@1.0::IAtCmdFwd/AtCmdFwdService' failed: exit code 128
+vendor.qti.hardware.radio.ims@1.0::IImsRadio/imsradio0 does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.qti.hardware.radio.ims@1.0::IImsRadio/imsradio0' failed: exit code 128
+vendor.qti.hardware.radio.ims@1.0::IImsRadio/imsradio1 does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.qti.hardware.radio.ims@1.0::IImsRadio/imsradio1' failed: exit code 128
+vendor.qti.hardware.radio.lpa@1.0::IUimLpa/UimLpa0 does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.qti.hardware.radio.lpa@1.0::IUimLpa/UimLpa0' failed: exit code 128
+vendor.qti.hardware.radio.lpa@1.0::IUimLpa/UimLpa1 does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.qti.hardware.radio.lpa@1.0::IUimLpa/UimLpa1' failed: exit code 128
+vendor.qti.hardware.radio.qcrilhook@1.0::IQtiOemHook/oemhook0 does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.qti.hardware.radio.qcrilhook@1.0::IQtiOemHook/oemhook0' failed: exit code 128
+vendor.qti.hardware.radio.qcrilhook@1.0::IQtiOemHook/oemhook1 does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.qti.hardware.radio.qcrilhook@1.0::IQtiOemHook/oemhook1' failed: exit code 128
+vendor.qti.hardware.radio.qtiradio@1.0::IQtiRadio/slot1 does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.qti.hardware.radio.qtiradio@1.0::IQtiRadio/slot1' failed: exit code 128
+vendor.qti.hardware.radio.qtiradio@1.0::IQtiRadio/slot2 does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.qti.hardware.radio.qtiradio@1.0::IQtiRadio/slot2' failed: exit code 128
+vendor.qti.hardware.radio.uim@1.0::IUim/Uim0 does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.qti.hardware.radio.uim@1.0::IUim/Uim0' failed: exit code 128
+vendor.qti.hardware.radio.uim@1.0::IUim/Uim1 does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.qti.hardware.radio.uim@1.0::IUim/Uim1' failed: exit code 128
+vendor.qti.hardware.radio.uim@1.1::IUim/Uim0 does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.qti.hardware.radio.uim@1.1::IUim/Uim0' failed: exit code 128
+vendor.qti.hardware.radio.uim@1.1::IUim/Uim1 does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.qti.hardware.radio.uim@1.1::IUim/Uim1' failed: exit code 128
+vendor.qti.hardware.radio.uim_remote_client@1.0::IUimRemoteServiceClient/uimRemoteClient0 does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.qti.hardware.radio.uim_remote_client@1.0::IUimRemoteServiceClient/uimRemoteClient0' failed: exit code 128
+vendor.qti.hardware.radio.uim_remote_client@1.0::IUimRemoteServiceClient/uimRemoteClient1 does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.qti.hardware.radio.uim_remote_client@1.0::IUimRemoteServiceClient/uimRemoteClient1' failed: exit code 128
+vendor.qti.hardware.radio.uim_remote_server@1.0::IUimRemoteServiceServer/uimRemoteServer0 does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.qti.hardware.radio.uim_remote_server@1.0::IUimRemoteServiceServer/uimRemoteServer0' failed: exit code 128
+vendor.qti.hardware.radio.uim_remote_server@1.0::IUimRemoteServiceServer/uimRemoteServer1 does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.qti.hardware.radio.uim_remote_server@1.0::IUimRemoteServiceServer/uimRemoteServer1' failed: exit code 128
+vendor.qti.hardware.tui_comm@1.0::ITuiComm/default does not exist, or no permission to connect.
+*** command 'lshal debug -E vendor.qti.hardware.tui_comm@1.0::ITuiComm/default' failed: exit code 128
+Adjusting max progress from 5000 to 5507
+Adjusting max progress from 5507 to 6068
+Adjusting max progress from 6068 to 6684
+Adding dir /data/misc/bluetooth/logs (recursive: 1)
+Duration of '/data/misc/bluetooth/logs': 0.004s
+taking late screenshot
+drop_root_user(): already running as Shell
+Error opening file:  (No such file or directory)
+*** command '/system/bin/screencap -p ' failed: exit code 1
+Failed to take screenshot on 
+Adjusting max progress from 6684 to 7377
+logcat read failure
+*** command 'logcat -L -b all -v threadtime -v printable -v uid -d *:v' failed: exit code 1
+AddAnrTraceDir(): dump_traces_file=/data/anr/dumptrace_mFRd0H, anr_traces_dir=/data/anr
+Dumping current ANR traces (/data/anr/dumptrace_mFRd0H) to the main bugreport entry
+Error unlinking temporary trace path /data/anr/dumptrace_mFRd0H: Permission denied
+execvp on command 'parse_radio_log /proc/last_radio_log' failed (error: Permission denied)
+*** command 'parse_radio_log /proc/last_radio_log' failed: exit code 1
+No IDumpstateDevice implementation
+Can't find service: android.service.gatekeeper.IGateKeeperService
+Can't find service: incident
+Can't find service: vold
+Adjusting max progress from 7377 to 8142
+Adding main entry (bugreport-lucye_global_com-PKQ1.190522.001-2021-10-14-00-48-27.txt) from /data/user_de/0/com.android.shell/files/bugreports/bugreport-lucye_global_com-PKQ1.190522.001-2021-10-14-00-48-27.tmp to .zip bugreport
+dumpstate id 1 finished around 2021/10/14 00:49:52 (85 s)
+Adding zip text entry main_entry.txt
+dumpstate_log.txt entry on zip file logged up to here

@@ -140,6 +140,7 @@ public class Demo : MonoBehaviour
             BleApi.BLEData res = new BleApi.BLEData();
             while (BleApi.PollData(out res, false))
             {
+                Debug.Log(res.ToString());
                 subcribeText.text = BitConverter.ToString(res.buf, 0, res.size);
                 Debug.Log(BitConverter.ToString(res.buf, 0, res.size));
                 //subcribeText.text = Encoding.ASCII.GetString(res.buf, 0, res.size);
