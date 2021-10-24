@@ -150,7 +150,7 @@ public class Demo : MonoBehaviour
             // log potential errors
             BleApi.ErrorMessage res = new BleApi.ErrorMessage();
             BleApi.GetError(out res);
-            if (lastError != res.msg)
+            if ((lastError != res.msg) && !(res.msg == ""))
             {
                 Debug.LogError(res.msg);
                 errorText.text = res.msg;
